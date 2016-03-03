@@ -22,7 +22,7 @@ input.form-control, .form-group .form-control .butt.buut {
 
 .buut {
     color: red;
-    padding: 15px;
+    padding: 0 55px 0 55px;
 }
 
 .stor22 {
@@ -30,4 +30,30 @@ input.form-control, .form-group .form-control .butt.buut {
 }
 .stor11 {
     color: #3b7390;
+}
+.butt, .input {
+    padding: .75rem;
+    margin: .375rem;
+    /*line-height: 1.375;*/
+    background-color: transparent;
+    border-radius: 2px;
+    /*text-align: center;*/
+}
+
+.butt:focus, .input:focus {
+    outline: none;
+}
+
+.butt {
+    border: 2px solid #f35626;
+    /*line-height: 1.375;*/
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+
+    font-weight: 700;
+
+    color: #f35626;
+
+    cursor: pointer;
+    /*-webkit-animation: hue 60s infinite linear;*/
 }

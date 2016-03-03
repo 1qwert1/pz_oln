@@ -63,7 +63,7 @@
     <div id="pdv" style="color: inherit; display: none"><h4>ІПП</h4>
     <div class="form-group">
 
-        <input required type="text" class="form-control" pattern="[0-9]{12}" placeholder="00000000"
+        <input type="text" class="form-control" pattern="[0-9]{12}" placeholder="00000000"
                name="vax_1" >
     </div>
 
@@ -154,7 +154,7 @@
     <div id="pdv2" style="color: inherit; display: none"><h4>ІПП</h4>
         <div class="form-group">
 
-            <input required type="text" class="form-control" pattern="[0-9]{12}" placeholder="00000000"
+            <input type="text" class="form-control" pattern="[0-9]{12}" placeholder="00000000"
                    name="vax_2" >
         </div>
         <br></div>
@@ -165,7 +165,7 @@
             <input type="checkbox" name="platn_prib_2">
         </div></label>
 </div>
-<hr>
+
 <script>
     $(function () {
         $("#vax_2").on("click", function () {

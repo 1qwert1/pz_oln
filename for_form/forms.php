@@ -1,10 +1,11 @@
 <?php
 
 if ($_POST):
+    session_start();
 
-    $val = $_POST['select'];
+    $_SESSION['$val'] = $_POST['select'];
 
-    switch ($val) {
+    switch ($_SESSION['$val']) {
         case '1':
             $val_ = '"Позовної заяви про розірвання шлюбу"';
             break;
@@ -20,50 +21,42 @@ if ($_POST):
         case '103':
             $val_ = '"Договору на надання послуг з просування торгової марки"';
             break;
+        case '104':
+            $val_ = '"Договору поставки"';
+            break;
         case '201':
             $val_ = '"Заяви до суду про поновлення сроків"';
             break;
     }
     ?>
 
-<?php include 'header.php' ?>
+    <?php include 'header.php' ?>
 
 
-<!--    --><?php
+    <!--    --><?php
 //    $mysqli = new mysqli("127.0.0.1", "root", "170158", "po", 3306);
 //    if ($mysqli->connect_errno) {
 //    echo "Не удалось подключиться к MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
 //    }
 //
 //    echo $mysqli->host_info . "\n";
-//    ?>
+//
+    ?>
 
 
-        <form action="list.php" method="post">
-<?php if ($val <= 100 || $val > 200) {
+    <form action="../obrabotka/list.php" method="post">
+    <?php if ($_SESSION['$val'] <= 100 || $_SESSION['$val'] > 200) {
     include 'court_tmp.php';
     include 'name_address.php';
-} else{
+} else {
     include 'agreement.php';
 }
-?>
+    ?>
 
-
-
-
-
-
-
-
-
-
-
-
-
+    <?php include 'footer_button.php' ?>
     <?php include 'footer.php' ?>
 
 
-
-<?php
+    <?php
 endif;
 ?>

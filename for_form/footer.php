@@ -1,13 +1,4 @@
-<br>
-<button name="submit" class="butt buut">Сформувати</button>
 
-</form>
-
-
-<br>
-
-
-<br>
 
 <div class="modal-footer"><a href="http://pozov.online">pozov.online</a></div>
 

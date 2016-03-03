@@ -19,7 +19,9 @@
 
 
 <div class="container">
-    <div class="modal-header"><h3>Формування <?php echo $val_; ?></h3></div>
+
+
+    <div class="modal-header"><h3><?php if($val_){echo 'Формування ' .$val_;} ?></h3></div>
 
 
 

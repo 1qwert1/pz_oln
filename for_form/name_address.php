@@ -14,7 +14,7 @@
            name="adress_poz">
 </div>
 
-<?php if($val == 1):?>
+<?php if($_SESSION['$val'] == 1):?>
 
 <br>
 <h4>Им'я в родовому відміннику відповідача</h4>

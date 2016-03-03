@@ -52,7 +52,7 @@
                 <option value="102">Підряду (для виконавця)</option>
                 <option value="103">На надання послуг з просування торгової марки</option>
 
-                <option>Поставки</option>
+                <option value="104">Поставки</option>
             </optgroup>
 
             <optgroup label="Заяви до суду">
