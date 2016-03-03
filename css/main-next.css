@@ -1,4 +1,33 @@
-input.form-control, .form-group .form-control {
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+
+    color: red;
+}
+
+body input:required:valid,
+body textarea:required:valid {
+    color: #1338ad;
+}
+
+
+input.form-control, .form-group .form-control .butt.buut {
     border-radius: 2px;
 
+}
+
+* {
+    color: #1338ad;
+}
+
+.buut {
+    color: red;
+    padding: 15px;
+}
+
+.stor22 {
+    color: #904336;
+}
+.stor11 {
+    color: #3b7390;
 }

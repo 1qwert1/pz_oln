@@ -38,25 +38,25 @@
            простих запитань, після чого Вашу заяву до суду (позовну заяву, договір тощо ) буде сформовано
     </div>
     <div class="wrap">
-        <form action="forms.php" method="post">
+        <form action="for_form/forms.php" method="post">
 
             <select class="input" name="select">
 
             <optgroup label="Позовні заяви">
-                <option>Про розірвання шлюбу</option>
-                <option>Про стягнення нарахованої, але невиплаченої заробітної плати</option>
+                <option value="1">Про розірвання шлюбу</option>
+                <option value="2">Про стягнення нарахованої, але невиплаченої заробітної плати</option>
             </optgroup>
 
             <optgroup label="Договори">
-                <option>Підряду (для замовника)</option>
-                <option>Підряду (для виконавця)</option>
-                <option>На надання послуг з просування торгової марки</option>
+                <option value="101">Підряду (для замовника)</option>
+                <option value="102">Підряду (для виконавця)</option>
+                <option value="103">На надання послуг з просування торгової марки</option>
 
                 <option>Поставки</option>
             </optgroup>
 
             <optgroup label="Заяви до суду">
-                <option>Поновлення сроків</option>
+                <option value="201">Поновлення сроків</option>
 
             </optgroup>
 
