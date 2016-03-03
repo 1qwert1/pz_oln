@@ -15,7 +15,7 @@
     <h4>Код ЄДРПОУ</h4>
     <div class="form-group">
 
-        <input required type="text" class="form-control" pattern="[0-9]{8}" placeholder="00000000"
+        <input required type="text" class="form-control" pattern="[0-9]{8}" placeholder="00000000 (8 цифр)"
                name="kod_1">
     </div>
     <br>
@@ -60,10 +60,10 @@
         <input type="checkbox" id="vax_1">
     </div></label>
     <br>
-    <div id="pdv" style="color: inherit; display: none"><h4>ІПП</h4>
+    <div id="pdv" style="color: inherit; display: none"><h4>ІПН</h4>
     <div class="form-group">
 
-        <input type="text" class="form-control" pattern="[0-9]{12}" placeholder="00000000"
+        <input type="text" class="form-control" pattern="[0-9]{10,12}" placeholder="0000000000 (10-12 цифр)"
                name="vax_1" >
     </div>
 
@@ -76,20 +76,7 @@
     </div></label>
 </div>
 <hr>
-<script>
-    $(function () {
-        $("#vax_1").on("click", function () {
-            if ($(this).prop("checked")) {
-                $('#pdv').css('display', 'block');
-            }
 
-            else {
-                $('#pdv').css('display', 'none');
-            }
-        })
-    });
-
-</script>
 
 <!--сторона 2-->
 
@@ -106,7 +93,7 @@
     <h4>Код ЄДРПОУ</h4>
     <div class="form-group">
 
-        <input required type="text" class="form-control" pattern="[0-9]{8}" placeholder="00000000"
+        <input required type="text" class="form-control" pattern="[0-9]{8}" placeholder="00000000 (8 цифр)"
                name="kod_2">
     </div>
     <br>
@@ -151,10 +138,10 @@
         <input type="checkbox" id="vax_2">
     </div></label>
     <br>
-    <div id="pdv2" style="color: inherit; display: none"><h4>ІПП</h4>
+    <div id="pdv2" style="color: inherit; display: none"><h4>ІПН</h4>
         <div class="form-group">
 
-            <input type="text" class="form-control" pattern="[0-9]{12}" placeholder="00000000"
+            <input type="text" class="form-control" pattern="[0-9]{10,12}" placeholder="0000000000 (10-12 цифр)"
                    name="vax_2" >
         </div>
         <br></div>
@@ -166,17 +153,4 @@
         </div></label>
 </div>
 
-<script>
-    $(function () {
-        $("#vax_2").on("click", function () {
-            if ($(this).prop("checked")) {
-                $('#pdv2').css('display', 'block');
-            }
 
-            else {
-                $('#pdv2').css('display', 'none');
-            }
-        })
-    });
-
-</script>

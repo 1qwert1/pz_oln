@@ -57,3 +57,17 @@ input.form-control, .form-group .form-control .butt.buut {
     cursor: pointer;
     /*-webkit-animation: hue 60s infinite linear;*/
 }
+@page{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+@media print {
+    .butt, a {
+        display: none;
+    }
+    body {
+        color: #000;
+
+    }
+}

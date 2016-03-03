@@ -1,6 +1,21 @@
-$(document).ready(function () {
+$(document).change(function () {
+    if ($("#vax_1").prop("checked")) {
+        $('#pdv').css('display', 'block');
+    }
 
+    else {
+        $('#pdv').css('display', 'none');
+    }
+    if ($("#vax_2").prop("checked")) {
+        $('#pdv2').css('display', 'block');
+    }
+
+    else {
+        $('#pdv2').css('display', 'none');
+    }
 });
+
+
 
 $(window).load(function () {
 
