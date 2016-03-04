@@ -71,3 +71,7 @@ input.form-control, .form-group .form-control .butt.buut {
 
     }
 }
+
+.count_child {
+    max-width: 60px;
+}

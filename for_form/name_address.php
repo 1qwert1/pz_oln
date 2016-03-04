@@ -31,6 +31,7 @@
     <input required type="text" class="form-control" placeholder="03035, м.Київ, вул.Артема, 22"
            name="adress_vidp">
 </div>
+    <?php include 'divorcement.php'?>
 
 <?php else: ?>
 
@@ -59,3 +60,8 @@
 
 
 <?php endif ?>
+
+<?php if ($_SESSION['$val'] == 2) {
+    include 'wage.php';
+}?>
+
