@@ -36,6 +36,7 @@ $(function() {
 
 function a_value(o) {
     if (o.value) {
+        $('.child_marrige').html('');
         for (var i = o.value; i > 0; i--) {
             $('.child_marrige').append('<br><div style="color: inherit;"><h4>ПІБ дитини</h4>' +
                 '<div class="form-group">' +

@@ -1,3 +1,7 @@
+
+<!--форма для ввода данных истца и ответчика-->
+
+
 <br>
 <h4>Им'я в родовому відміннику позивача</h4>
 <div class="form-group">
@@ -13,6 +17,16 @@
     <input required  type="text" class="form-control" placeholder="03035, м.Київ, вул.Артема, 22"
            name="adress_poz">
 </div>
+<br>
+<h4>Телефон позивача</h4>
+<div class="form-group">
+
+    <input required type="text" class="form-control" placeholder="Петренко Семен Васильович"
+           name="tel_poz">
+</div>
+
+<!--если иск по браку то подключаем ответчика физика-->
+
 
 <?php if($_SESSION['$val'] == 1):?>
 
@@ -31,7 +45,16 @@
     <input required type="text" class="form-control" placeholder="03035, м.Київ, вул.Артема, 22"
            name="adress_vidp">
 </div>
+    <br>
+    <h4>Телефон відповідача</h4>
+    <div class="form-group">
+
+        <input required type="text" class="form-control" placeholder="Петренко Семен Васильович"
+               name="tel_vidp">
+    </div>
     <?php include 'divorcement.php'?>
+
+    <!--иначе юрик-->
 
 <?php else: ?>
 
@@ -60,6 +83,8 @@
 
 
 <?php endif ?>
+
+<!--если нужен иск по зарплате то подключаем еще форму-->
 
 <?php if ($_SESSION['$val'] == 2) {
     include 'wage.php';

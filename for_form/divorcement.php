@@ -1,4 +1,4 @@
-
+<!--для иска по расторжению брака-->
 
 
 <br>
@@ -17,7 +17,14 @@
            name="place_marrige">
 
 </div>
+<br>
+<h4>Номер запису про реєстрацію шлюбу</h4>
+<div class="form-group">
 
+    <input required type="text" class="form-control" placeholder="2025" style="width: 350px"
+           name="number_marrige">
+
+</div>
 
 
 <br>
