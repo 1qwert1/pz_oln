@@ -3,11 +3,11 @@
 
 
 <br>
-<h4>Им'я в родовому відміннику позивача</h4>
+<h4>Прізвище ім'я по батькові позивача у називному відмінку</h4>
 <div class="form-group">
 
     <input required type="text" class="form-control" placeholder="Петренко Семен Васильович"
-           name="name_poz">
+           name="name_poz" pattern='([А-ЯІЇЄ][а-яіїє’-]+[\s]?){3,}'>
 </div>
 
 <br>
@@ -21,7 +21,7 @@
 <h4>Телефон позивача</h4>
 <div class="form-group">
 
-    <input required type="text" class="form-control" placeholder="Петренко Семен Васильович"
+    <input required type="text" class="form-control" placeholder="0505322688"
            name="tel_poz">
 </div>
 
@@ -31,11 +31,11 @@
 <?php if($_SESSION['$val'] == 1):?>
 
 <br>
-<h4>Им'я в родовому відміннику відповідача</h4>
+<h4>Прізвище ім'я по батькові відповідача у називному відмінку</h4>
 <div class="form-group">
 
     <input required type="text" class="form-control" placeholder="Петренко Семен Васильович"
-           name="name_vidp">
+           name="name_vidp" pattern='([А-ЯІЇЄ][а-яіїє’-]+[\s]?){3,}'>
 </div>
 
 <br>
@@ -49,7 +49,7 @@
     <h4>Телефон відповідача</h4>
     <div class="form-group">
 
-        <input required type="text" class="form-control" placeholder="Петренко Семен Васильович"
+        <input required type="text" class="form-control" placeholder="0505322688"
                name="tel_vidp">
     </div>
     <?php include 'divorcement.php'?>

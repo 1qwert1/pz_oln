@@ -49,6 +49,7 @@ if ($_POST):
 
 
     <form action="../obrabotka/list.php" method="post">
+
     <?php if ($_SESSION['$val'] <= 100 || $_SESSION['$val'] > 200) {
     include 'court_tmp.php';
     include 'name_address.php';

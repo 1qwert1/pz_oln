@@ -76,12 +76,13 @@ input.form-control, .form-group .form-control .butt.buut {
     max-width: 60px;
 }
 
-table td, td b, table li{
+table td, td b, table li, td i{
     color: #444444;
 }
-td {
+table td {
     width: 16.67%;
     padding: 20px;
+    /*border: 2px solid black;*/
 
 }
 
@@ -112,4 +113,8 @@ ol {
 
 .datepicker {
     max-width: 350px;
+}
+
+.rig {
+    text-align: right;
 }
