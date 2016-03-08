@@ -101,7 +101,7 @@
 
 <!--если нужен иск по зарплате то подключаем еще форму-->
 
-<?php if ($_SESSION['$val'] == 2) {
+<?php if ($_SESSION['$val'] == 2 ||$_SESSION['$val'] == 3) {
     include 'wage.php';
 }?>
 

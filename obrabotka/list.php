@@ -33,6 +33,9 @@ if ($response != null && $response->success) {
         case '2':
             include 'application_to_the_court/wage_claim.php';
             break;
+        case '3':
+            include 'application_to_the_court/wage_claim_nakaz.php';
+            break;
         case '101':
 
             break;
