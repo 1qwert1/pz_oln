@@ -9,7 +9,16 @@
     <input required type="text" class="form-control" placeholder="Петренко Семен Васильович"
            name="name_poz" pattern='([А-ЯІЇЄ][а-яіїє’-]+[\s]?){3,}'>
 </div>
+<br>
+<h4>Стать позивача</h4>
+<div class="form-group">
 
+    <div style="display: table"><input checked  type="radio" class="form-control" name="sex" value="1" style="width: 40px; display: inline">
+        <span style="display: table-cell; vertical-align: middle">Чоловіча</span></div>
+    <div style="display: table"><input type="radio" class="form-control" name="sex" value="1" style="width: 40px; display: inline">
+        <span style="display: table-cell; vertical-align: middle">Жіноча</span></div>
+
+</div>
 <br>
 <h4>Адреса позивача</h4>
 <div class="form-group">
@@ -80,7 +89,13 @@
         <input required type="text" class="form-control" placeholder="03035, м.Київ, вул.Артема, 22"
                name="adress_vidp">
     </div>
+    <br>
+    <h4>Телефон відповідача</h4>
+    <div class="form-group">
 
+        <input required type="text" class="form-control" placeholder="0505322688"
+               name="tel_vidp">
+    </div>
 
 <?php endif ?>
 

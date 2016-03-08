@@ -20,13 +20,32 @@
            name="andWork">
 
 </div>
+<br>
+<h4>На якій посаді працював</h4>
+<div class="form-group">
 
+    <input required type="text" class="form-control"  placeholder="зварювальника"
+           name="position">
+
+</div>
 <br>
 <h4>Сума заборгованості на дату звільнення</h4>
 <div class="form-group">
 
     <input required type="text" class="form-control" pattern="[0-9.]*" placeholder="10000.00"
-           name="place_marrige">
+           name="debt">
 
 </div>
+<br>
+<h4>Середня заробітна плата за день (заробітна плата за два останні місяці поділена на
+    кількість календарних днів в цьому періоді або із довідки для центру зайнятості)</h4>
+<div class="form-group">
+
+    <input required type="text" class="form-control" pattern="[0-9.]*" placeholder="100.00"
+           name="debt_day">
+
+</div>
+
+
+
 

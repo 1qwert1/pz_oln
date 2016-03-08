@@ -1,6 +1,9 @@
 
 
-<div class="modal-footer"><a href="http://pozov.online">pozov.online</a></div>
+<div class="modal-footer">
+
+
+    <a href="http://pozov.online">pozov.online</a></div>
 
 </div>
 

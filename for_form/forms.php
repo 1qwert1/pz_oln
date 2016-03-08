@@ -57,7 +57,6 @@ if ($_POST):
 }
     ?>
 
-<!--    --><?php //include 'footer_button.php' ?>
 
 
         <br>
