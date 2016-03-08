@@ -42,17 +42,19 @@
 
 
 <div class="container">
-<!--    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>-->
-<!--    <ins class="adsbygoogle"-->
-<!--         style="display:inline-block;width:728px;height:90px"-->
-<!--         data-ad-client="ca-pub-4872650891681792"-->
-<!--         data-ad-slot="4683522468"></ins>-->
-<!--    <script>-->
-<!--        (adsbygoogle = window.adsbygoogle || []).push({});-->
-<!--    </script>-->
 
 
-    <div class="modal-header"><h3><?php if($val_){echo 'Формування ' .$val_;} ?></h3></div>
+
+    <div class="modal-header">
+        <div style="width: 100%; text-align: center"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <ins class="adsbygoogle"
+                 style="display:inline-block;width:728px;height:90px"
+                 data-ad-client="ca-pub-4872650891681792"
+                 data-ad-slot="4683522468"></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script></div>
+        <h3><?php if($val_){echo 'Формування ' .$val_;} ?></h3></div>
 
 
 

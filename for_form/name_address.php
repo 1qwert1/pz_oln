@@ -13,9 +13,9 @@
 <h4>Стать позивача</h4>
 <div class="form-group">
 
-    <div style="display: table"><input checked  type="radio" class="form-control" name="sex" value="1" style="width: 40px; display: inline">
+    <div style="display: table"><input checked  type="radio" class="" name="sex" value="1" style="width: 40px; display: inline">
         <span style="display: table-cell; vertical-align: middle">Чоловіча</span></div>
-    <div style="display: table"><input type="radio" class="form-control" name="sex" value="1" style="width: 40px; display: inline">
+    <div style="display: table"><input type="radio" class="" name="sex" value="1" style="width: 40px; display: inline">
         <span style="display: table-cell; vertical-align: middle">Жіноча</span></div>
 
 </div>
