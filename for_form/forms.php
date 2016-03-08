@@ -47,21 +47,37 @@ if ($_POST):
 //
     ?>
 
-
     <form action="../obrabotka/list.php" method="post">
 
     <?php if ($_SESSION['$val'] <= 100 || $_SESSION['$val'] > 200) {
     include 'court_tmp.php';
-    include 'name_address.php';
-} else {
-    include 'agreement.php';
+//    include 'name_address.php';
+//} else {
+//    include 'agreement.php';
 }
     ?>
 
-    <?php include 'footer_button.php' ?>
+<!--    --><?php //include 'footer_button.php' ?>
+
+
+        <br>
+        <div class="g-recaptcha" data-sitekey="6LcoExoTAAAAAILfY1ErzGBKCA9J_zV8nJ-2LkV9"></div>
+
+       <?php if($_POST["g-recaptcha-response"]) {echo '<button name="submit" class="butt"><h4>Далі</h4></button>';}?>
+
+    </form>
+
+
+    <br>
+
+
+    <br>
+
     <?php include 'footer.php' ?>
 
 
     <?php
 endif;
 ?>
+
+
