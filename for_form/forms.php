@@ -61,12 +61,13 @@ if ($_POST):
 
 
         <br>
-        <div class="g-recaptcha" data-sitekey="6LcoExoTAAAAAILfY1ErzGBKCA9J_zV8nJ-2LkV9"></div>
+        <div id="recaptcha"></div>
 
-       <?php if($_POST["g-recaptcha-response"]) {echo '<button name="submit" class="butt"><h4>Далі</h4></button>';}?>
+       <button name="submit" class="butt"><h4>Далі</h4></button>
 
     </form>
-
+<script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
+        async defer></script>
 
     <br>
 

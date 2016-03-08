@@ -2,7 +2,7 @@
 <!--главная печатная форма-->
 
 <?php
-
+include '../for_form/header.php';
 //
 session_start();
 //
@@ -24,7 +24,7 @@ session_start();
 include '../for_form/recaptchalib.php';
 
 if ($response != null && $response->success) {
-    include '../for_form/header.php';
+
 
 
     if($_SESSION['$val']==1):
@@ -33,13 +33,17 @@ if ($response != null && $response->success) {
     echo '<button onclick=print() class="butt">До друку</button>';
 
 
-    include '../for_form/footer.php';
+
 } else {
 
-    echo 'nuul';
+    echo '<h1>Вы робот? Если нет не забудьте пройти проверку</h1>';
+    header( 'Refresh:5; URL=http://pozov.online/' );
+
+
+
 }
 
-
+include '../for_form/footer.php';
 
 
 
