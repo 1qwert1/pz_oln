@@ -51,9 +51,9 @@ if ($_POST):
 
     <?php if ($_SESSION['$val'] <= 100 || $_SESSION['$val'] > 200) {
     include 'court_tmp.php';
-//    include 'name_address.php';
-//} else {
-//    include 'agreement.php';
+    include 'name_address.php';
+} else {
+    include 'agreement.php';
 }
     ?>
 
