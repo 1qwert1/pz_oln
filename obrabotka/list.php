@@ -53,16 +53,16 @@ if ($response != null && $response->success) {
 
     echo '<button onclick=print() class="butt">До друку</button>';
 
-}
 
-//} else {
-//
-//    echo '<h1>Вы робот? Если нет не забудьте пройти проверку</h1>';
-//    header( 'Refresh:5; URL=http://pozov.online/' );
-//
-//
-//
-//}
+
+} else {
+
+    echo '<h1>Вы робот? Если нет не забудьте пройти проверку</h1>';
+    header( 'Refresh:5; URL=http://pozov.online/' );
+
+
+
+}
 
 include '../for_form/footer.php';
 
