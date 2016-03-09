@@ -2,14 +2,14 @@
 <!--форма для ввода данных истца и ответчика-->
 
 
-<br>
+
 <h4>Прізвище ім'я по батькові позивача у називному відмінку</h4>
 <div class="form-group">
 
     <input required type="text" class="form-control" placeholder="Петренко Семен Васильович"
            name="name_poz" pattern='([А-ЯІЇЄ][а-яіїє’-]+[\s]?){3,}'>
 </div>
-<br>
+
 <h4>Стать позивача</h4>
 <div class="form-group">
 
@@ -19,14 +19,14 @@
         <span style="display: table-cell; vertical-align: middle">Жіноча</span></div>
 
 </div>
-<br>
+
 <h4>Адреса позивача</h4>
 <div class="form-group">
 
     <input required  type="text" class="form-control" placeholder="03035, м.Київ, вул.Артема, 22"
            name="adress_poz">
 </div>
-<br>
+
 <h4>Телефон позивача</h4>
 <div class="form-group">
 
@@ -39,7 +39,7 @@
 
 <?php if($_SESSION['$val'] == 1):?>
 
-<br>
+
 <h4>Прізвище ім'я по батькові відповідача у називному відмінку</h4>
 <div class="form-group">
 
@@ -47,14 +47,14 @@
            name="name_vidp" pattern='([А-ЯІЇЄ][а-яіїє’-]+[\s]?){3,}'>
 </div>
 
-<br>
+
 <h4>Адреса відповідача</h4>
 <div class="form-group">
 
     <input required type="text" class="form-control" placeholder="03035, м.Київ, вул.Артема, 22"
            name="adress_vidp">
 </div>
-    <br>
+
     <h4>Телефон відповідача</h4>
     <div class="form-group">
 
@@ -67,14 +67,14 @@
 
 <?php else: ?>
 
-    <br>
+
     <h4>Назва відповідача</h4>
     <div class="form-group">
 
         <input required type="text" class="form-control" placeholder='ТОВ "Будівельник і Ко"'
                name="name_vidp">
     </div>
-    <br>
+
     <h4>Код ЄДРПОУ відповідача</h4>
     <div class="form-group">
 
@@ -82,14 +82,14 @@
                name="kod_vidp">
     </div>
 
-    <br>
+
     <h4>Адреса відповідача</h4>
     <div class="form-group">
 
         <input required type="text" class="form-control" placeholder="03035, м.Київ, вул.Артема, 22"
                name="adress_vidp">
     </div>
-    <br>
+
     <h4>Телефон відповідача</h4>
     <div class="form-group">
 

@@ -149,6 +149,21 @@ p {
     float: right;
     text-align: right;
     width: 30%;
-    margin-top: 60px;
+    margin-top: 10px;
     color: #444444;
+}
+
+.comback {
+    position: fixed;
+    right: 73px;
+    up: 20px;
+    opacity: 0.5;
+
+}
+.comback a:hover {
+    text-decoration: none; /* Добавляем подчеркивание при наведении курсора на ссылку */
+    color: red; /* Ссылка красного цвета */
+}
+.comback:hover {
+    opacity: 1;
 }

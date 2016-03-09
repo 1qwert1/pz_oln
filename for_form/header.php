@@ -50,7 +50,7 @@
 </head>
 <body>
 
-
+<div class="comback butt"><a href="../index.php">На головну</a></div>
 <div class="container">
 
 
@@ -74,5 +74,5 @@
 
 
 
-    <br>
+
     <br>

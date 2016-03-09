@@ -125,3 +125,4 @@ $days = $interval->days;
 </tr>
 
 </table>
+</div>

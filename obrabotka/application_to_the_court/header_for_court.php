@@ -1,5 +1,5 @@
 
-
+<div style="margin-left: 20px">
 
 <div class="shapka-v-sud">
     <i><?php echo $_POST['court'] ?></i>

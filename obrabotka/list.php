@@ -6,9 +6,9 @@ include '../for_form/header.php';
 //
 session_start();
 //
-echo "<pre>";
-print_r($_POST);
-echo "</pre>";
+//echo "<pre>";
+//print_r($_POST);
+//echo "</pre>";
 //
 //
 //echo $_SESSION['$val'];
@@ -23,7 +23,7 @@ echo "</pre>";
 //сли пришли данные то подключаем хедер , печатную форму в зависимости от выбора на главной и футер
 include '../for_form/recaptchalib.php';
 
-//if ($response != null && $response->success) {
+if ($response != null && $response->success) {
 //echo 'ОТКЛЮЧЕНА ПРОВЕРКА РЕКАПТЧИ';
 
     switch ($_SESSION['$val']) {
@@ -58,14 +58,14 @@ include '../for_form/recaptchalib.php';
 
 
 
-//} else {
-//
-//    echo '<h1>Вы робот? Если нет не забудьте пройти проверку</h1>';
-//    header( 'Refresh:5; URL=http://pozov.online/' );
-//
-//
-//
-//}
+} else {
+
+    echo '<h1>Вы робот? Если нет не забудьте пройти проверку</h1>';
+    header( 'Refresh:5; URL=http://pozov.online/' );
+
+
+
+}
 
 include '../for_form/footer.php';
 

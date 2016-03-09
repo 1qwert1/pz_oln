@@ -125,6 +125,6 @@ $days = $interval->days;
 </table>
 
 
-
+</div>
 
 

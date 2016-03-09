@@ -1,7 +1,7 @@
 <!--для иска по расторжению брака-->
 
 
-<br>
+
 <h4>Дата реєстрації шлюбу</h4>
 <div class="form-group">
 
@@ -9,7 +9,7 @@
            name="date_marriage">
 
 </div>
-<br>
+
 <h4>Ким було зареєстровано шлюб</h4>
 <div class="form-group">
 
@@ -17,7 +17,7 @@
            name="place_marrige">
 
 </div>
-<br>
+
 <h4>Номер запису про реєстрацію шлюбу</h4>
 <div class="form-group">
 
@@ -27,7 +27,7 @@
 </div>
 
 
-<br>
+
 <h4>Кількість дітей віком до 23 років</h4>
 <div class="form-group">
 

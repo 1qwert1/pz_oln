@@ -69,7 +69,7 @@
             </optgroup>
 
             <optgroup label="Договори">
-                <option value="101">Підряду (для замовника)</option>
+<!--                <option value="101">Підряду (для замовника)</option>-->
 <!--                <option value="102">Підряду (для виконавця)</option>-->
 <!--                <option value="103">На надання послуг з просування торгової марки</option>-->
 <!---->
