@@ -3,16 +3,14 @@
 <br>
 код ЄДРПОУ:<?php echo $_POST['kod_vidp'] ?>
 
-</td>
-</tr>
-<tr>
+</div>
 
-    <td class="center" colspan="6"> <h3>ПОЗОВНА ЗАЯВА</h3>
+<div class="center_name"><b> <h3>ПОЗОВНА ЗАЯВА</h3>
         про стягнення нарахованої, але невиплаченої заробітної плати, середнього заробітку за час затримки розрахунку
-    </td>
+    </b></div>
 
 
-</tr>
+
 <?php
 $datetime2 = date_create(date("d.m.Y"));
 $datetime1 = date_create($_POST['andWork']);
@@ -20,8 +18,7 @@ $interval = date_diff($datetime1, $datetime2);
 $days = $interval->days;
 
 ?>
-<tr>
-    <td colspan="6" class="text">
+<div class="text">
         <p>Я, <?php echo $_POST['name_poz'] ?> з <?php echo $_POST['firstDayWork'] ?> року <?php if($_POST['sex'] == 1){
             echo 'працював';
         } else {echo 'працювала';}?> у <?php echo $_POST['name_vidp'] ?>
@@ -94,33 +91,33 @@ $days = $interval->days;
         367 ЦПК України, суд –</p>
 
 
-    </td>
 
-</tr>
-<tr>
-    <td class="request" colspan="6"><b>Прошу :</b></td>
-</tr>
-<tr>
-    <td class="text" colspan="6">
+
+<p  class="request"><b>Прошу :</b></p>
+
+<p>
+
         <ol>
             <li>Стягнути з <?php echo $_POST['name_vidp'] ?> на мою користь, <?php echo $_POST['name_poz'] ?>, заборгованість по
                 заробітній платни та середнього заробітку за час затримки розрахунку  у сумі <?php echo $many + $debt?> грн.
             </li>
         </ol>
-    </td>
-</tr>
-<tr>
-    <td style="text-align: left; padding-bottom: 2px" colspan="6">Додатки:</td>
-</tr>
-<tr>
-    <td class="text amount_child" colspan="6">
+
+</p>
+<br>
+<br>
+<p style="text-align: left;" >Додатки:</p>
+<p>
+
         <ol>
             <li>Копія позовної заяви відповідачу</li>
             <li>Копія довідки про середню заробітну плату</li>
             <li>Копія довідки про заборгованість по заробітній платни</li>
         </ol>
-    </td>
-</tr>
+
+</p>
+</div>
+<table>
 <tr>
     <td colspan="2"><?php echo date("d.m.Y"); ?> року</td>
     <td colspan="2" class="rig">_________________</td>

@@ -8,48 +8,48 @@
     <h4>Назва</h4>
     <div class="form-group">
 
-        <input required type="text" class="form-control" placeholder='ТОВ "Будівельник і Ко"'
+        <input  type="text" class="form-control" placeholder='ТОВ "Будівельник і Ко"'
                name="name_1">
     </div>
     <br>
     <h4>Код ЄДРПОУ</h4>
     <div class="form-group">
 
-        <input required type="text" class="form-control" pattern="[0-9]{8}" placeholder="00000000 (8 цифр)"
+        <input  type="text" class="form-control" pattern="[0-9]{8}" placeholder="00000000 (8 цифр)"
                name="kod_1">
     </div>
     <br>
     <h4>Посада підписанта</h4>
     <div class="form-group">
 
-        <input required type="text" class="form-control" placeholder="директор"
+        <input  type="text" class="form-control" placeholder="директор"
                name="posada_1">
     </div>
     <br>
     <h4>ПІБ підписанта</h4>
     <div class="form-group">
 
-        <input required type="text" class="form-control" placeholder="Петренко Семен Йосипович"
+        <input  type="text" class="form-control" placeholder="Петренко Семен Йосипович"
                name="fio_1">
     </div>
     <br><h4>Підписант діє на підставі</h4>
     <div class="form-group">
 
-        <input required type="text" class="form-control" placeholder="Статута"
+        <input  type="text" class="form-control" placeholder="Статута"
                name="stat_1">
     </div>
     <br>
     <h4>Адреса</h4>
     <div class="form-group">
 
-        <input required type="text" class="form-control" placeholder="03035, м.Київ, вул.Артема, 22"
+        <input  type="text" class="form-control" placeholder="03035, м.Київ, вул.Артема, 22"
                name="adress_1">
     </div>
     <br>
     <h4>Платіжні реквізити</h4>
     <div class="form-group">
 
-        <input required type="text" class="form-control" placeholder="ПАТ 'Гарний Банк', МФО 121121, п/р 2600111111 "
+        <input  type="text" class="form-control" placeholder="ПАТ 'Гарний Банк', МФО 121121, п/р 2600111111 "
                name="bank_1">
     </div>
             <br>
@@ -86,48 +86,48 @@
     <h4>Назва</h4>
     <div class="form-group">
 
-        <input required type="text" class="form-control" placeholder='ТОВ "Будівельник і Ко"'
+        <input  type="text" class="form-control" placeholder='ТОВ "Будівельник і Ко"'
                name="name_2">
     </div>
     <br>
     <h4>Код ЄДРПОУ</h4>
     <div class="form-group">
 
-        <input required type="text" class="form-control" pattern="[0-9]{8}" placeholder="00000000 (8 цифр)"
+        <input  type="text" class="form-control" pattern="[0-9]{8}" placeholder="00000000 (8 цифр)"
                name="kod_2">
     </div>
     <br>
     <h4>Посада підписанта</h4>
     <div class="form-group">
 
-        <input required type="text" class="form-control" placeholder="директор"
+        <input  type="text" class="form-control" placeholder="директор"
                name="posada_2">
     </div>
     <br>
     <h4>ПІБ підписанта</h4>
     <div class="form-group">
 
-        <input required type="text" class="form-control" placeholder="Петренко Семен Йосипович"
+        <input  type="text" class="form-control" placeholder="Петренко Семен Йосипович"
                name="fio_2">
     </div>
     <br><h4>Підписант діє на підставі</h4>
     <div class="form-group">
 
-        <input required type="text" class="form-control" placeholder="Статута"
+        <input  type="text" class="form-control" placeholder="Статута"
                name="stat_2">
     </div>
     <br>
     <h4>Адреса</h4>
     <div class="form-group">
 
-        <input required type="text" class="form-control" placeholder="03035, м.Київ, вул.Артема, 22"
+        <input  type="text" class="form-control" placeholder="03035, м.Київ, вул.Артема, 22"
                name="adress_2">
     </div>
     <br>
     <h4>Платіжні реквізити</h4>
     <div class="form-group">
 
-        <input required type="text" class="form-control" placeholder="ПАТ 'Гарний Банк', МФО 121121, п/р 2600111111 "
+        <input  type="text" class="form-control" placeholder="ПАТ 'Гарний Банк', МФО 121121, п/р 2600111111 "
                name="bank_2">
     </div>
     <br>

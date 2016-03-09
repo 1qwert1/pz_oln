@@ -10,7 +10,6 @@ body textarea:required:valid {
     color: #1338ad;
 }
 
-
 input.form-control, .form-group .form-control .butt.buut {
     border-radius: 2px;
 
@@ -28,9 +27,11 @@ input.form-control, .form-group .form-control .butt.buut {
 .stor22 {
     color: #904336;
 }
+
 .stor11 {
     color: #3b7390;
 }
+
 .butt, .input {
     padding: .75rem;
 
@@ -59,15 +60,17 @@ input.form-control, .form-group .form-control .butt.buut {
     cursor: pointer;
     /*-webkit-animation: hue 60s infinite linear;*/
 }
+
 /*@page{*/
-    /*margin-top: 0px;*/
-    /*margin-bottom: 0px;*/
+/*margin-top: 0px;*/
+/*margin-bottom: 0px;*/
 /*}*/
 
 @media print {
     .butt, a, .modal-header, .modal-footer {
         display: none;
     }
+
     body {
         color: #000;
 
@@ -78,9 +81,10 @@ input.form-control, .form-group .form-control .butt.buut {
     max-width: 60px;
 }
 
-table td, td b, table li, td i{
+table td, td b, table li, td i, .text li, .text i, .text b, .center_name b {
     color: #444444;
 }
+
 table td {
     width: 16.67%;
     padding: 20px;
@@ -90,7 +94,8 @@ table td {
 
 .center {
     text-align: center;
-    font-weight:600;
+    font-weight: 600;
+    width: 100%;
 
 }
 
@@ -102,13 +107,16 @@ table td {
     text-align: justify;
     padding-bottom: 8px;
     padding-top: 8px;
+    color: #444444 !important;
 }
 
 .request {
     text-align: center;
     padding-top: 0px;
     padding-bottom: 0px;
+    color: #444444
 }
+
 ol {
     padding-left: 20px;
 }
@@ -124,4 +132,23 @@ ol {
 p {
     text-indent: 20px; /* Отступ первой строки в пикселах */
     color: inherit;
+}
+
+.center_name {
+    width: 100%;
+    text-align: center;
+    clear: both;
+    margin-bottom: 40px;
+    padding-top: 60px;
+    color: #444444 !important
+}
+.shapka-v-sud b, .shapka-v-sud i {
+    color: #444444;
+}
+.shapka-v-sud {
+    float: right;
+    text-align: right;
+    width: 30%;
+    margin-top: 60px;
+    color: #444444;
 }

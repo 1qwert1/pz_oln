@@ -2,11 +2,17 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="подготовка юридических документов онлайн"/>
-    <meta name="keywords" content="договора, иски, заявления">
+
+    <meta name="description" content="подготовка юридических документов онлайн бесплатно без регистрации два простых
+    шага. заполните форму и робот все зделает за вас. распечатайте документ "/>
+    <meta name="keywords" content="создание договора, создание иска по зароботной плате, создание заявления в суд,
+     создание искового заявления для развода, взыскание зароботной платы и среднего зароботка за время
+      задержки выплаты зарплаты, заява про стягнення нарахованої, але невиплаченої заробітної плати,
+       середнього заробітку за час затримки розрахунку, позовна заява про розірвання шлюбу">
     <meta name="author" content="IPC2B llc">
 
     <title>Позов онлайн</title>
+    <link rel="shortcut icon" href="/img/pzo.ico" type="image/x-icon">
     <script src="css/modernizer.js"></script>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -63,7 +69,7 @@
             </optgroup>
 
             <optgroup label="Договори">
-<!--                <option value="101">Підряду (для замовника)</option>-->
+                <option value="101">Підряду (для замовника)</option>
 <!--                <option value="102">Підряду (для виконавця)</option>-->
 <!--                <option value="103">На надання послуг з просування торгової марки</option>-->
 <!---->
