@@ -37,7 +37,19 @@
 </head>
 <body>
 
-
+<div style="width: 100%; text-align: center">
+    <!--            реклама гугула-->
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <!-- pozov online ашкые -->
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-4872650891681792"
+         data-ad-slot="5076058068"
+         data-ad-format="auto"></ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
 
 <div class="loader">
     <div class="loader_inner"></div>
@@ -45,7 +57,7 @@
 
 <header class="site__header island">
     <div class="wrap">
-        <span style="display: block;"><h1 class="site__title mega">Позов онлайн<sup><i class="fa fa-copyright" style="font-size: small"></sup></i></h1></span>
+        <span style="display: block;" class="site__title mega">Позов онлайн<sup><i class="fa fa-copyright" style="font-size: small"></i></sup></span>
         <span class="beta subhead">абсолютно безкоштовний юридичний ресурс, сформований за ініціативи
             практикуючих правників України, який дозволяє сформувати позов, заяву до суду, договір та ін.
             документи не витрачаючи ваш час та кошти на юристів.
