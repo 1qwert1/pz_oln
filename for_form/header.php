@@ -46,14 +46,20 @@
 
 
     <div class="modal-header">
-        <div style="width: 100%; text-align: center"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <div style="width: 100%; text-align: center">
+<!--            реклама гугула-->
+<!--            -->
+<!--            -->
+            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <!-- pozov online -->
             <ins class="adsbygoogle"
                  style="display:inline-block;width:728px;height:90px"
                  data-ad-client="ca-pub-4872650891681792"
-                 data-ad-slot="4683522468"></ins>
+                 data-ad-slot="2094068862"></ins>
             <script>
                 (adsbygoogle = window.adsbygoogle || []).push({});
-            </script></div>
+            </script>
+        </div>
         <h3><?php if($val_){echo 'Формування ' .$val_;} ?></h3></div>
 
 

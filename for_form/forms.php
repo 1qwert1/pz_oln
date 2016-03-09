@@ -4,7 +4,7 @@
 
 <?php
 
-if ($_POST):
+
     session_start();
 
     $_SESSION['$val'] = $_POST['select'];
@@ -84,8 +84,6 @@ if ($_POST):
     <?php include 'footer.php' ?>
 
 
-    <?php
-endif;
-?>
+
 
 

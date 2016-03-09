@@ -26,7 +26,7 @@
         ga('send', 'pageview');
 
     </script>
-    <meta name='yandex-verification' content='717ea4057e91f99d' />
+<!--    <meta name='yandex-verification' content='717ea4057e91f99d' />-->
 
 </head>
 <body>
