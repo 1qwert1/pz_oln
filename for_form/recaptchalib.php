@@ -128,7 +128,7 @@ class ReCaptcha
 }
 
 // ваш секретный ключ
-$secret = "";
+$secret = "6LcoExoTAAAAAOejjiszfv9IkNJAMI_28n8D-3vK";
 
 // пустой ответ
 $response = null;
