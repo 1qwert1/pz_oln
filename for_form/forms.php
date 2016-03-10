@@ -61,14 +61,17 @@
     include 'court_tmp.php';
     include 'name_address.php';
 } else {
+        if ($_SESSION['$val'] == 101) {
+            include 'bilding.php';
+        }
     include 'agreement.php';
 }
     ?>
 
 
 
-        <br>
-        <div id="recaptcha"></div>
+<!--        <br>-->
+<!--        <div id="recaptcha"></div>-->
 
        <button name="submit" class="butt"><h4>Далі</h4></button>
 

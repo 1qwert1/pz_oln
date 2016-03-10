@@ -17,6 +17,7 @@ input.form-control, .form-group .form-control .butt.buut {
 
 * {
     color: #1338ad;
+    /*padding-left: 8px;*/
 }
 
 .buut {
@@ -73,6 +74,7 @@ input.form-control, .form-group .form-control .butt.buut {
 
     body {
         color: #000;
+
 
     }
 }
@@ -167,3 +169,4 @@ p {
 .comback:hover {
     opacity: 1;
 }
+

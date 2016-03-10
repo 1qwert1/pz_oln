@@ -37,19 +37,9 @@
 </head>
 <body>
 
-<div style="width: 100%; text-align: center">
-    <!--            реклама гугула-->
-    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <!-- pozov online ашкые -->
-    <ins class="adsbygoogle"
-         style="display:block"
-         data-ad-client="ca-pub-4872650891681792"
-         data-ad-slot="5076058068"
-         data-ad-format="auto"></ins>
-    <script>
-        (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
-</div>
+<!--<div style="width: 100%; text-align: center">
+для рекламы
+</div>-->
 
 <div class="loader">
     <div class="loader_inner"></div>
@@ -81,7 +71,7 @@
             </optgroup>
 
             <optgroup label="Договори">
-<!--                <option value="101">Підряду (для замовника)</option>-->
+                <option value="101">Підряду (будівництво)</option>
 <!--                <option value="102">Підряду (для виконавця)</option>-->
 <!--                <option value="103">На надання послуг з просування торгової марки</option>-->
 <!---->
