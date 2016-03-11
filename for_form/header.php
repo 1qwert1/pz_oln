@@ -39,14 +39,14 @@
 
     </script>
 <!--    <script src='https://www.google.com/recaptcha/api.js'></script>-->
-    <script type="text/javascript">
-        var onloadCallback = function() {
-            grecaptcha.render('recaptcha', {
-                'sitekey' : '6LcoExoTAAAAAILfY1ErzGBKCA9J_zV8nJ-2LkV9'
-
-            });
-        };
-    </script>
+<!--    <script type="text/javascript">-->
+<!--        var onloadCallback = function() {-->
+<!--            grecaptcha.render('recaptcha', {-->
+<!--                'sitekey' : '6LcoExoTAAAAAILfY1ErzGBKCA9J_zV8nJ-2LkV9'-->
+<!---->
+<!--            });-->
+<!--        };-->
+<!--    </script>-->
 </head>
 <body>
 

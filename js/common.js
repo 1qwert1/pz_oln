@@ -1,3 +1,11 @@
+
+
+
+
+
+
+
+
 $(document).change(function () {
     //платедьщик НДС?
     if ($("#vax_1").prop("checked")) {
@@ -14,9 +22,11 @@ $(document).change(function () {
     else {
         $('#pdv2').css('display', 'none');
     }
+
 });
 
 $(function() {
+
     $(".datepicker").datepicker({
         firstDay: 1,
         autoSize: true,
@@ -34,6 +44,7 @@ $(function() {
     });
 });
 
+//добавляем в форму к иску о разводе детей
 function a_value(o) {
     if (o.value) {
         $('.child_marrige').html('');
@@ -79,6 +90,7 @@ $(window).load(function () {
 });
 
 
+//запрет на выделение и копирование текста
 document.ondragstart = test;
 document.onselectstart = test;
 document.oncontextmenu = test;

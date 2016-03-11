@@ -159,8 +159,8 @@ hr {
 }
 
 a {
-    color: inherit;
-    text-decoration: underline;
+    color: #6858f3;
+    text-decoration: none;
     -webkit-animation: hue 60s infinite linear;
 }
 

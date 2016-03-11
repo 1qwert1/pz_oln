@@ -3,7 +3,7 @@
 <?php include 'header_for_court.php'?>
 
 <br>
-код ЄДРПОУ:<?php echo $_POST['kod_vidp'] ?>
+код ЄДРПОУ: <?php echo $_POST['kod_vidp'] ?>
 
 </div>
 

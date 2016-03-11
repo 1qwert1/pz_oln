@@ -13,26 +13,35 @@
 
     <title>Позов онлайн</title>
     <link rel="shortcut icon" href="/img/pzo.ico" type="image/x-icon">
-    <script src="css/modernizer.js"></script>
+    <!--    <script src="css/modernizer.js"></script>-->
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="stylesheet" href="libs/animate/animate.min.css"/>
     <link rel="stylesheet" href="css/fonts.css"/>
-
+    <link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css"/>
     <link rel="stylesheet" href="css/main.css"/>
     <link rel="stylesheet" href="css/font-awesome.min.css"/>
     <script src="libs/jquery/jquery-2.1.3.min.js"></script>
+    <script src="libs/fancybox/jquery.fancybox.pack.js"></script>
+    <!--    гугл аналистик-->
     <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
         ga('create', 'UA-54699426-3', 'auto');
         ga('send', 'pageview');
 
     </script>
-<!--    <meta name='yandex-verification' content='717ea4057e91f99d' />-->
+    <!--    <meta name='yandex-verification' content='717ea4057e91f99d' />-->
 
 </head>
 <body>
@@ -47,7 +56,8 @@
 
 <header class="site__header island">
     <div class="wrap">
-        <span style="display: block;" class="site__title mega">Позов онлайн<sup><i class="fa fa-copyright" style="font-size: small"></i></sup></span>
+        <span style="display: block;" class="site__title mega">Позов онлайн<sup><i class="fa fa-copyright"
+                                                                                   style="font-size: small"></i></sup></span>
         <span class="beta subhead">абсолютно безкоштовний юридичний ресурс, сформований за ініціативи
             практикуючих правників України, який дозволяє сформувати позов, заяву до суду, договір та ін.
             документи не витрачаючи ваш час та кошти на юристів.
@@ -57,31 +67,35 @@
 <!--<div class="container">-->
 <main class="site__content island" role="content">
     <div class="tooltip top">Будь-ласка, оберіть категорію та дайте відповідь на декілька
-           простих запитань, після чого Вашу заяву до суду (позовну заяву, договір тощо ) буде сформовано
+        простих запитань, після чого Вашу заяву до суду (позовну заяву, договір тощо ) буде сформовано
     </div>
     <div class="wrap">
         <form action="for_form/forms.php" method="post">
 
             <select class="input" name="select">
 
-            <optgroup label="Позовні заяви">
-                <option value="1">Про розірвання шлюбу</option>
-                <option value="3">Про стягнення нарахованої, але невиплаченої заробітної плати (наказне провадження)</option>
-                <option value="2">Про стягнення нарахованої, але невиплаченої заробітної плати (позовне провадження)</option>
-            </optgroup>
+                <optgroup label="Позовні заяви">
+                    <option value="1">Про розірвання шлюбу</option>
+                    <option value="3">Про стягнення нарахованої, але невиплаченої заробітної плати (наказне
+                        провадження)
+                    </option>
+                    <option value="2">Про стягнення нарахованої, але невиплаченої заробітної плати (позовне
+                        провадження)
+                    </option>
+                </optgroup>
 
-            <optgroup label="Договори">
-                <option value="101">Підряду (будівництво)</option>
-<!--                <option value="102">Підряду (для виконавця)</option>-->
-<!--                <option value="103">На надання послуг з просування торгової марки</option>-->
-<!---->
-<!--                <option value="104">Поставки</option>-->
-<!--            </optgroup>-->
+                <optgroup label="Договори">
+                    <option value="101">Підряду (будівництво)</option>
+                    <!--                <option value="102">Підряду (для виконавця)</option>-->
+                    <!--                <option value="103">На надання послуг з просування торгової марки</option>-->
+                    <!---->
+                    <!--                <option value="104">Поставки</option>-->
+                    <!--            </optgroup>-->
 
-            <optgroup label="Заяви до суду">
-<!--                <option value="201">Поновлення сроків</option>-->
+                    <optgroup label="Заяви до суду">
+                        <!--                <option value="201">Поновлення сроків</option>-->
 
-            </optgroup>
+                    </optgroup>
 
             </select>
             <button name="submit" class="butt">Сформувати</button>
@@ -99,50 +113,84 @@
 
         <p>
             <small>Сервіс сформовано з метою покращення якості надання юридичних послуг населенню.</small>
-            <br><small><i class="fa fa-copyright"></i>2016 'IPC2B' Всі права захищені</small>
+            <br>
+            <small><a href="#va" class="fancybox">Приклади сформованих документов</a></small>
+            <br>
+            <small><i class="fa fa-copyright"></i>2016 'IPC2B' Всі права захищені</small>
         </p>
     </div>
 </main>
 
 
-<!--</div>-->
+<div style="display: none">
+    <div id="va">
+        <ul>
+            <li><b>Позовні заяви</b>
+                <ul>
+                    <li><a href="/example/mer.html">Позов про розірвання шлюбу</a></li>
+                    <li><a href="/example/mer.php">ПОЗОВНА ЗАЯВА про стягнення нарахованої, але невиплаченої заробітної
+                            плати, середнього заробітку за час затримки розрахунку</a></li>
+                </ul>
+
+            </li>
+            <li><b>Договори</b>
+                <ul>
+                    <li></li>
+                    <li></li>
+                </ul>
+
+            </li>
+        </ul>
+
+    </div>
+
+</div>
+
+<script>
+    $(document).ready(function () {
 
 
-<!--<div class="hidden"></div>-->
+        $(".fancybox").fancybox();
 
-
-
-
+    });
+</script>
 <script src="js/common.js"></script>
 
 <!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript">
     (function (d, w, c) {
-        (w[c] = w[c] || []).push(function() {
+        (w[c] = w[c] || []).push(function () {
             try {
                 w.yaCounter35886050 = new Ya.Metrika({
-                    id:35886050,
-                    clickmap:true,
-                    trackLinks:true,
-                    accurateTrackBounce:true
+                    id: 35886050,
+                    clickmap: true,
+                    trackLinks: true,
+                    accurateTrackBounce: true
                 });
-            } catch(e) { }
+            } catch (e) {
+            }
         });
 
         var n = d.getElementsByTagName("script")[0],
             s = d.createElement("script"),
-            f = function () { n.parentNode.insertBefore(s, n); };
+            f = function () {
+                n.parentNode.insertBefore(s, n);
+            };
         s.type = "text/javascript";
         s.async = true;
         s.src = "https://mc.yandex.ru/metrika/watch.js";
 
         if (w.opera == "[object Opera]") {
             d.addEventListener("DOMContentLoaded", f, false);
-        } else { f(); }
+        } else {
+            f();
+        }
     })(document, window, "yandex_metrika_callbacks");
 </script>
-<noscript><div><img src="https://mc.yandex.ru/watch/35886050" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<noscript>
+    <div><img src="https://mc.yandex.ru/watch/35886050" style="position:absolute; left:-9999px;" alt=""/></div>
+</noscript>
 <!-- /Yandex.Metrika counter -->
 <!-- Google Analytics counter --><!-- /Google Analytics counter -->
 
