@@ -127,15 +127,15 @@
         <ul>
             <li><b>Позовні заяви</b>
                 <ul>
-                    <li><a href="/example/mer.html">Позов про розірвання шлюбу</a></li>
-                    <li><a href="/example/mer.php">ПОЗОВНА ЗАЯВА про стягнення нарахованої, але невиплаченої заробітної
+                    <li><a class="fancybox fancybox.iframe" href="./example/mer.html">Позов про розірвання шлюбу</a></li>
+                    <li><a class="fancybox fancybox.iframe" href="./example/zar.html">ПОЗОВНА ЗАЯВА про стягнення нарахованої, але невиплаченої заробітної
                             плати, середнього заробітку за час затримки розрахунку</a></li>
                 </ul>
 
             </li>
             <li><b>Договори</b>
                 <ul>
-                    <li></li>
+                    <li><a class="fancybox fancybox.iframe" href="./example/bud.html">Договір підряду (будівництво)</a></li>
                     <li></li>
                 </ul>
 
