@@ -38,7 +38,7 @@ $(function() {
         dayNamesShort: ["Нед", "Пон", "Вів", "Сер", "Чет", "П’ят", "Суб"],
         dayNamesMin: ["Нд", "Пн", "Вв", "Ср", "Чт", "Пт", "Сб"],
         showOtherMonths: true,
-        yearRange: "1900:2016",
+        yearRange: "1900:",
         selectOtherMonths: true,
         changeYear: true
     });
@@ -52,7 +52,7 @@ function a_value(o) {
             $('.child_marrige').append('<br><div style="color: inherit;"><h4>Прізвище ім\'я по батькові  дитини</h4>' +
                 '<div class="form-group">' +
                 '<input required  type="text" class="form-control"  placeholder="Петренко Василь Семенович"   name="child_name_' + i + '" pattern=\'([А-ЯІЇЄ][а-яіїє’-]+[\\s]?){3,}\'" ></div><br>' +
-                '<h4>Дата народження дитини</h4><div class="form-group"><input required type="text" class="form-control datepicker"' +
+                '<h4>Дата народження дитини</h4><div class="form-group"><input required type="text" class="form-control datepicker" placeholder="01.01.1990"' +
                 'name="date_born_child_' + i + '"></div></div>');
         }
 
@@ -69,7 +69,7 @@ function a_value(o) {
         dayNamesShort: ["Нед", "Пон", "Вів", "Сер", "Чет", "П’ят", "Суб"],
         dayNamesMin: ["Нд", "Пн", "Вв", "Ср", "Чт", "Пт", "Сб"],
         showOtherMonths: true,
-        yearRange: "1900:2016",
+        yearRange: "1900:",
         selectOtherMonths: true,
         changeYear: true
     });

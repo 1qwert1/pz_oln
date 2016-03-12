@@ -161,7 +161,8 @@ hr {
 a {
     color: #6858f3;
     text-decoration: none;
-    -webkit-animation: hue 60s infinite linear;
+    /*-webkit-animation: hue 60s infinite linear;*/
+    /*-moz-animation: hue 60s infinite linear;*/
 }
 
 a:hover {

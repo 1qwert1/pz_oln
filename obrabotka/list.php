@@ -20,8 +20,8 @@ session_start();
 
 
 
-//сли пришли данные то подключаем хедер , печатную форму в зависимости от выбора на главной и футер
-include '../for_form/recaptchalib.php';
+
+//include '../for_form/recaptchalib.php';
 
 //if ($response != null && $response->success) {
 //echo 'ОТКЛЮЧЕНА ПРОВЕРКА РЕКАПТЧИ';
@@ -40,7 +40,8 @@ include '../for_form/recaptchalib.php';
             include 'application_to_the _contract/services.php';
             break;
         case '102':
-
+            include 'application_to_the _contract/sale.php';
+            break;
             break;
         case '103':
 

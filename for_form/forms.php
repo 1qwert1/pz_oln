@@ -63,6 +63,8 @@
 } else {
         if ($_SESSION['$val'] == 101) {
             include 'bilding.php';
+        }elseif($_SESSION['$val'] == 102){
+            include 'sale_place.php';
         }
     include 'agreement.php';
 }

@@ -86,7 +86,7 @@
 
                 <optgroup label="Договори">
                     <option value="101">Підряду (будівництво)</option>
-                    <!--                <option value="102">Підряду (для виконавця)</option>-->
+                                    <option value="102">Поставки товара</option>
                     <!--                <option value="103">На надання послуг з просування торгової марки</option>-->
                     <!---->
                     <!--                <option value="104">Поставки</option>-->
@@ -136,7 +136,7 @@
             <li><b>Договори</b>
                 <ul>
                     <li><a class="fancybox fancybox.iframe" href="./example/bud.html">Договір підряду (будівництво)</a></li>
-                    <li></li>
+                    <li><a class="fancybox fancybox.iframe" href="./example/sale.html">Договір поставки</a></li>
                 </ul>
 
             </li>

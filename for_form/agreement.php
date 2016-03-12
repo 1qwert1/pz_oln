@@ -9,7 +9,7 @@
 <h4>Дата укладення договору</h4>
 <div class="form-group">
 
-    <input type="text" class="form-control datepicker"
+    <input type="text" class="form-control datepicker" placeholder="01.01.1990"
            name="date_contr">
 
 </div>
@@ -82,7 +82,7 @@
 
     </div>
 
-    <label style="color: inherit"><h4>Платник податку на прибуток на загальних підставахк</h4>
+    <label style="color: inherit"><h4>Платник податку на прибуток на загальних підставах</h4>
     <div class="form-group">
 
         <input type="checkbox" name="platn_prib_1">
@@ -165,7 +165,7 @@
         </div>
         </div>
 
-    <label style="color: inherit"><h4>Платник податку на прибуток на загальних підставахк</h4>
+    <label style="color: inherit"><h4>Платник податку на прибуток на загальних підставах</h4>
         <div class="form-group">
 
             <input type="checkbox" name="platn_prib_2">
