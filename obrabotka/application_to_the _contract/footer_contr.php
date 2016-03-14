@@ -32,8 +32,8 @@
         <td><?php echo $_POST[bank_2] ?></td>
     </tr>
     <tr>
-        <td>Код ЄДРПОУ <?php echo $_POST[code_1] ?></td>
-        <td>Код ЄДРПОУ <?php echo $_POST[code_2] ?></td>
+        <td>Код ЄДРПОУ <?php echo $_POST[kod_1] ?></td>
+        <td>Код ЄДРПОУ <?php echo $_POST[kod_2] ?></td>
     </tr>
     <tr>
         <td>ІПН <?php echo $_POST[vax_1] ?></td>

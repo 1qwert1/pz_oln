@@ -6,7 +6,7 @@
 <h4>Дата прийняття на роботу</h4>
 <div class="form-group">
 
-    <input type="text" class="form-control datepicker" placeholder="01.01.1990"
+    <input required type="text" class="form-control datepicker" placeholder="01.01.1990"
            name="firstDayWork">
 
 </div>
@@ -16,7 +16,7 @@
 <h4>Дата звільнення з роботи</h4>
 <div class="form-group">
 
-    <input type="text" class="form-control datepicker" placeholder="01.01.1990"
+    <input required type="text" class="form-control datepicker" placeholder="01.01.1990"
            name="andWork">
 
 </div>

@@ -13,7 +13,9 @@ switch ($_SESSION['$val']) {
         $name_stor_2 = 'Замовник';
         break;
     case '103':
-        $name_contr = '';
+        $name_contr = 'ПОСТАВКИ';
+        $name_stor_1 = 'Постачальник';
+        $name_stor_2 = 'Замовник';
         break;
     case '104':
         $name_contr = '';
@@ -98,7 +100,7 @@ switch ($_SESSION['$val']) {
             } else echo 'платником єдиного податку'
 
             ?> відповідно до чинного законодавства України, в особі: <?php echo $_POST[posada_1] . ' ' . $_POST[fio_1] ?>,
-            яка діє на підставі <?php echo $_POST[stat_1] ?>, з однієї сторони, та
+            що діє на підставі <?php echo $_POST[stat_1] ?>, з однієї сторони, та
         </p>
         <p><b> <?php echo $_POST[name_2] ?></b>,
             надалі – «<?php  echo $name_stor_2?>», що є <?php
@@ -108,7 +110,7 @@ switch ($_SESSION['$val']) {
             } else echo 'платником єдиного податку'
 
             ?> відповідно до чинного законодавства України, в особі: <?php echo $_POST[posada_2] . ' ' . $_POST[fio_2] ?>,
-            яка діє на підставі <?php echo $_POST[stat_2] ?> з іншої сторони,
+            що діє на підставі <?php echo $_POST[stat_2] ?> з іншої сторони,
             Генпідрядник та Підрядник надалі разом іменовані «Сторони», а кожний окремо – «Сторона», уклали
             цей ДОГОВІР <?php echo $name_contr ?> № _________ від <?php echo $_POST[date_contr] ?> року (надалі – «Договір») про таке:
 

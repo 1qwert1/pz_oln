@@ -64,7 +64,7 @@ function a_value(o) {
         dateFormat: "dd.mm.yy",
         monthNames: ["Січень", "Лютий", "Березень", "Квітень", "Травень", "Червень",
             "Липень", "Серпень", "Вересень", "Жовтень", "Листопад", "Грудень"],
-        monthNamesShort: ["Січ", "Лют", "Бер", "Кві", "Трав", "Черв", "Лип", "Серп", "Вер", "Жовт", "Лист", "Груд"],
+        monthNamesShort:  ["Січ", "Лют", "Бер", "Кві", "Трав", "Черв", "Лип", "Серп", "Вер", "Жовт", "Лист", "Груд"],
         dayNames: ["Неділя", "Понеділок", "Вівторок", "Середа", "Четвер", "П’ятниця", "Субота"],
         dayNamesShort: ["Нед", "Пон", "Вів", "Сер", "Чет", "П’ят", "Суб"],
         dayNamesMin: ["Нд", "Пн", "Вв", "Ср", "Чт", "Пт", "Сб"],
@@ -91,8 +91,12 @@ $(window).load(function () {
 
 
 //запрет на выделение и копирование текста
-//document.ondragstart = test;
+//document.ondragstart =  test;
 //document.onselectstart = test;
 //document.oncontextmenu = test;
-//function test() {return false}
+//
+//
+//function test() {
+//
+//    return false}
 

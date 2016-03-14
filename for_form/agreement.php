@@ -3,13 +3,13 @@
 <h4>Місце укладення договору</h4>
 <div class="form-group">
 
-    <input  type="text" class="form-control" placeholder='м.Київ'
+    <input required  type="text" class="form-control" placeholder='м.Київ'
             name="place_contr">
 </div>
 <h4>Дата укладення договору</h4>
 <div class="form-group">
 
-    <input type="text" class="form-control datepicker" placeholder="01.01.1990"
+    <input required type="text" class="form-control datepicker" placeholder="01.01.1990"
            name="date_contr">
 
 </div>
@@ -21,48 +21,48 @@
     <h4>Назва</h4>
     <div class="form-group">
 
-        <input  type="text" class="form-control" placeholder='ТОВ "Будівельник і Ко"'
+        <input required type="text" class="form-control" placeholder='ТОВ "Будівельник і Ко"'
                name="name_1">
     </div>
 
     <h4>Код ЄДРПОУ</h4>
     <div class="form-group">
 
-        <input  type="text" class="form-control" pattern="[0-9]{8}" placeholder="00000000 (8 цифр)"
+        <input required type="text" class="form-control" pattern="[0-9]{8}" placeholder="00000000 (8 цифр)"
                name="kod_1">
     </div>
 
     <h4>Посада підписанта</h4>
     <div class="form-group">
 
-        <input  type="text" class="form-control" placeholder="директор"
+        <input required type="text" class="form-control" placeholder="директор"
                name="posada_1">
     </div>
 
     <h4>ПІБ підписанта</h4>
     <div class="form-group">
 
-        <input  type="text" class="form-control" placeholder="Петренко Семен Йосипович"
+        <input required type="text" class="form-control" placeholder="Петренко Семен Йосипович"
                name="fio_1">
     </div>
     <h4>Підписант діє на підставі</h4>
     <div class="form-group">
 
-        <input  type="text" class="form-control" placeholder="Статута"
+        <input required type="text" class="form-control" placeholder="Статута"
                name="stat_1">
     </div>
 
     <h4>Адреса</h4>
     <div class="form-group">
 
-        <input  type="text" class="form-control" placeholder="03035, м.Київ, вул.Артема, 22"
+        <input required type="text" class="form-control" placeholder="03035, м.Київ, вул.Артема, 22"
                name="adress_1">
     </div>
 
     <h4>Платіжні реквізити</h4>
     <div class="form-group">
 
-        <input  type="text" class="form-control" placeholder="ПАТ 'Гарний Банк', МФО 121121, п/р 2600111111 "
+        <input required type="text" class="form-control" placeholder="ПАТ 'Гарний Банк', МФО 121121, п/р 2600111111 "
                name="bank_1">
     </div>
 
@@ -99,34 +99,34 @@
     <h4>Назва</h4>
     <div class="form-group">
 
-        <input  type="text" class="form-control" placeholder='ТОВ "Будівельник і Ко"'
+        <input required type="text" class="form-control" placeholder='ТОВ "Будівельник і Ко"'
                name="name_2">
     </div>
 
     <h4>Код ЄДРПОУ</h4>
     <div class="form-group">
 
-        <input  type="text" class="form-control" pattern="[0-9]{8}" placeholder="00000000 (8 цифр)"
+        <input required type="text" class="form-control" pattern="[0-9]{8}" placeholder="00000000 (8 цифр)"
                name="kod_2">
     </div>
 
     <h4>Посада підписанта</h4>
     <div class="form-group">
 
-        <input  type="text" class="form-control" placeholder="директор"
+        <input required type="text" class="form-control" placeholder="директор"
                name="posada_2">
     </div>
 
     <h4>ПІБ підписанта</h4>
     <div class="form-group">
 
-        <input  type="text" class="form-control" placeholder="Петренко Семен Йосипович"
+        <input required type="text" class="form-control" placeholder="Петренко Семен Йосипович"
                name="fio_2">
     </div>
     <h4>Підписант діє на підставі</h4>
     <div class="form-group">
 
-        <input  type="text" class="form-control" placeholder="Статута"
+        <input required type="text" class="form-control" placeholder="Статута"
                name="stat_2">
     </div>
     <h4>Ліцензія (за наявності) - серія, номер, коли видана, термін дії</h4>
@@ -139,14 +139,14 @@
     <h4>Адреса</h4>
     <div class="form-group">
 
-        <input  type="text" class="form-control" placeholder="03035, м.Київ, вул.Артема, 22"
+        <input required type="text" class="form-control" placeholder="03035, м.Київ, вул.Артема, 22"
                name="adress_2">
     </div>
 
     <h4>Платіжні реквізити</h4>
     <div class="form-group">
 
-        <input  type="text" class="form-control" placeholder="ПАТ 'Гарний Банк', МФО 121121, п/р 2600111111 "
+        <input required type="text" class="form-control" placeholder="ПАТ 'Гарний Банк', МФО 121121, п/р 2600111111 "
                name="bank_2">
     </div>
 

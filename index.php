@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
 
-    <meta name="description" content="подготовка юридических документов онлайн бесплатно без регистрации два простых
-    шага. заполните форму и робот все зделает за вас. распечатайте документ "/>
+    <meta name="description" content="Подготовка юридических документов онлайн бесплатно без регистрации в два простых
+    шага. Заполните форму и робот все зделает за вас. Распечатайте документ "/>
     <meta name="keywords" content="создание договора, создание иска по зароботной плате, создание заявления в суд,
      создание искового заявления для развода, взыскание зароботной платы и среднего зароботка за время
       задержки выплаты зарплаты, заява про стягнення нарахованої, але невиплаченої заробітної плати,
-       середнього заробітку за час затримки розрахунку, позовна заява про розірвання шлюбу">
+       середнього заробітку за час затримки розрахунку, позовна заява про розірвання шлюбу, заява про розлучення">
     <meta name="author" content="IPC2B llc">
 
     <title>Позов онлайн</title>
@@ -41,7 +41,7 @@
         ga('send', 'pageview');
 
     </script>
-    <!--    <meta name='yandex-verification' content='717ea4057e91f99d' />-->
+    <meta name='yandex-verification' content='717ea4057e91f99d'/>
 
 </head>
 <body>
@@ -86,8 +86,8 @@
 
                 <optgroup label="Договори">
                     <option value="101">Підряду (будівництво)</option>
-                                    <option value="102">Поставки товара</option>
-                    <!--                <option value="103">На надання послуг з просування торгової марки</option>-->
+                    <option value="102">Поставки товару (рамковий)</option>
+                    <option value="103">Поставки товару (з ціной договору)</option>
                     <!---->
                     <!--                <option value="104">Поставки</option>-->
                     <!--            </optgroup>-->
@@ -114,7 +114,7 @@
         <p>
             <small>Сервіс сформовано з метою покращення якості надання юридичних послуг населенню.</small>
             <br>
-            <small><a href="#va" class="fancybox">Приклади сформованих документов</a></small>
+            <small><a href="#va" class="fancybox">Приклади сформованих документів</a></small>
             <br>
             <small><i class="fa fa-copyright"></i>2016 'IPC2B' Всі права захищені</small>
         </p>
@@ -127,16 +127,23 @@
         <ul>
             <li><b>Позовні заяви</b>
                 <ul>
-                    <li><a class="fancybox fancybox.iframe" href="./example/mer.html">Позов про розірвання шлюбу</a></li>
-                    <li><a class="fancybox fancybox.iframe" href="./example/zar.html">ПОЗОВНА ЗАЯВА про стягнення нарахованої, але невиплаченої заробітної
+                    <li><a class="fancybox fancybox.iframe" href="./example/mer.html">Позов про розірвання шлюбу</a>
+                    </li>
+                    <li><a class="fancybox fancybox.iframe" href="./example/zar.html">ПОЗОВНА ЗАЯВА про стягнення
+                            нарахованої, але невиплаченої заробітної
                             плати, середнього заробітку за час затримки розрахунку</a></li>
                 </ul>
 
             </li>
             <li><b>Договори</b>
                 <ul>
-                    <li><a class="fancybox fancybox.iframe" href="./example/bud.html">Договір підряду (будівництво)</a></li>
-                    <li><a class="fancybox fancybox.iframe" href="./example/sale.html">Договір поставки</a></li>
+                    <li><a class="fancybox fancybox.iframe" href="./example/bud.html">Договір підряду (будівництво)</a>
+                    </li>
+                    <li><a class="fancybox fancybox.iframe" href="./example/sale.html">Договір поставки (рамковий)</a>
+                    </li>
+                    <li><a class="fancybox fancybox.iframe" href="./example/sale_.html">Договір поставки (з ціной
+                            договору)</a></li>
+
                 </ul>
 
             </li>
