@@ -1,9 +1,10 @@
 
 
-<div class="modal-footer">
+<div class="modal-footer"><small>
 
 
-    <a href="http://pozov.online">pozov.online</a></div>
+<!--    <a href="http://pozov.online">pozov.online</a><br>-->
+    Зауваження та пропозиції: <a style="color: #761c19" href="mailto:support@pozov.online">support@pozov.online</a></small></div>
 
 </div>
 
@@ -19,8 +20,6 @@
 
 <script src="../js/common.js"></script>
 
-<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
-<!-- Google Analytics counter --><!-- /Google Analytics counter -->
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript">
     (function (d, w, c) {
@@ -30,7 +29,8 @@
                     id:35886050,
                     clickmap:true,
                     trackLinks:true,
-                    accurateTrackBounce:true
+                    accurateTrackBounce:true,
+                    webvisor:true
                 });
             } catch(e) { }
         });

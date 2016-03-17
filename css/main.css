@@ -324,3 +324,10 @@ html {
 
 
 }
+
+::selection {
+    background: #ffff00; /* Safari, Chrome, Opera */
+}
+::-moz-selection {
+    background: #ffff00; /* FireFox */
+}

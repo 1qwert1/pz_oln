@@ -1,14 +1,18 @@
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
 
     <meta name="description" content="Подготовка юридических документов онлайн бесплатно без регистрации в два простых
-    шага. Заполните форму и робот все зделает за вас. Распечатайте документ "/>
+    шага. Заполните форму и робот все сделает за вас. Распечатайте документ "/>
     <meta name="keywords" content="создание договора, создание иска по зароботной плате, создание заявления в суд,
      создание искового заявления для развода, взыскание зароботной платы и среднего зароботка за время
       задержки выплаты зарплаты, заява про стягнення нарахованої, але невиплаченої заробітної плати,
-       середнього заробітку за час затримки розрахунку, позовна заява про розірвання шлюбу, заява про розлучення">
+       середнього заробітку за час затримки розрахунку, позовна заява про розірвання шлюбу, заява про розлучення, позов про
+       розірвання шлюбу, договір підряду, зразки документів, зразок позовної заяви, договір підряду, договір поставки">
     <meta name="author" content="IPC2B llc">
 
     <title>Позов онлайн</title>
@@ -114,9 +118,10 @@
         <p>
             <small>Сервіс сформовано з метою покращення якості надання юридичних послуг населенню.</small>
             <br>
-            <small><a href="#va" class="fancybox">Приклади сформованих документів</a></small>
+            <small><a href="#va" class="fancybox">Приклади сформованих документів</a> </small>
             <br>
-            <small><i class="fa fa-copyright"></i>2016 'IPC2B' Всі права захищені</small>
+            <small><i class="fa fa-copyright"></i>2016 'IPC2B' Всі права захищені. <br>
+                <a style="color: #8c8c8c" href="mailto:support@pozov.online">support@pozov.online</a></small>
         </p>
     </div>
 </main>
@@ -163,43 +168,35 @@
 </script>
 <script src="js/common.js"></script>
 
-<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript">
     (function (d, w, c) {
-        (w[c] = w[c] || []).push(function () {
+        (w[c] = w[c] || []).push(function() {
             try {
                 w.yaCounter35886050 = new Ya.Metrika({
-                    id: 35886050,
-                    clickmap: true,
-                    trackLinks: true,
-                    accurateTrackBounce: true
+                    id:35886050,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true,
+                    webvisor:true
                 });
-            } catch (e) {
-            }
+            } catch(e) { }
         });
 
         var n = d.getElementsByTagName("script")[0],
             s = d.createElement("script"),
-            f = function () {
-                n.parentNode.insertBefore(s, n);
-            };
+            f = function () { n.parentNode.insertBefore(s, n); };
         s.type = "text/javascript";
         s.async = true;
         s.src = "https://mc.yandex.ru/metrika/watch.js";
 
         if (w.opera == "[object Opera]") {
             d.addEventListener("DOMContentLoaded", f, false);
-        } else {
-            f();
-        }
+        } else { f(); }
     })(document, window, "yandex_metrika_callbacks");
 </script>
-<noscript>
-    <div><img src="https://mc.yandex.ru/watch/35886050" style="position:absolute; left:-9999px;" alt=""/></div>
-</noscript>
+<noscript><div><img src="https://mc.yandex.ru/watch/35886050" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
-<!-- Google Analytics counter --><!-- /Google Analytics counter -->
 
 </body>
 </html>
