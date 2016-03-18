@@ -3,7 +3,7 @@
 
 
 
-<h4>Прізвище ім'я по батькові позивача у називному відмінку</h4>
+<h4>Прізвище ім'я по батькові позивача</h4>
 <div class="form-group">
 
     <input required type="text" class="form-control" placeholder="Петренко Семен Васильович"
@@ -40,7 +40,7 @@
 <?php if($_SESSION['$val'] == 1):?>
 
 
-<h4>Прізвище ім'я по батькові відповідача у називному відмінку</h4>
+<h4>Прізвище ім'я по батькові відповідача</h4>
 <div class="form-group">
 
     <input required type="text" class="form-control" placeholder="Петренко Семен Васильович"

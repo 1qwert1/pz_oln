@@ -90,7 +90,7 @@ function fiz_value(o) {
     if (o.value) {
         $('.fiz').empty();
         for (var i = 1; i <= o.value; i++) {
-            $('.fiz').append('<h4>Прізвище ім\'я по батькові позивача у називному відмінку</h4><div class="form-group">' +
+            $('.fiz').append('<h4>Прізвище ім\'я по батькові засновника - фізичної особи ' + i + '</h4><div class="form-group">' +
                 '<input required type="text" class="form-control" placeholder="Петренко Семен Васильович"' +
                 'name="name_zas_' + i + '"></div><h4>Серія та номер паспорта засновника - фізичної особи ' + i + '</h4><div  class="form-group">' +
                 '<input required  type="text" class="form-control" style="width: 150px;" placeholder=\'МА №232232\'name="pasp_' + i + '\">' +
