@@ -72,9 +72,12 @@ input.form-control, .form-group .form-control .butt.buut {
         display: none;
     }
 
+    .zagl_stat {
+        page-break-after: always;
+    }
+
     body {
         color: #000;
-
 
     }
 }
@@ -144,9 +147,11 @@ p {
     padding-top: 60px;
     color: #444444 !important
 }
+
 .shapka-v-sud b, .shapka-v-sud i {
     color: #444444;
 }
+
 .shapka-v-sud {
     float: right;
     text-align: right;
@@ -162,10 +167,12 @@ p {
     opacity: 0.5;
 
 }
+
 .comback a:hover {
     text-decoration: none; /* Добавляем подчеркивание при наведении курсора на ссылку */
     color: red; /* Ссылка красного цвета */
 }
+
 .comback:hover {
     opacity: 1;
 }
@@ -173,6 +180,13 @@ p {
 ::selection {
     background: #ffff00; /* Safari, Chrome, Opera */
 }
+
 ::-moz-selection {
     background: #ffff00; /* FireFox */
+}
+table.podp_stat{
+    width: 100%;
+}
+.podp_stat td {
+    width: 50%;
 }

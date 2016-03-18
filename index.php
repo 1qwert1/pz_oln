@@ -1,6 +1,3 @@
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -63,7 +60,8 @@
         <span style="display: block;" class="site__title mega">Позов онлайн<sup><i class="fa fa-copyright"
                                                                                    style="font-size: small"></i></sup></span>
         <span class="beta subhead">абсолютно безкоштовний юридичний ресурс, сформований за ініціативи
-            практикуючих правників України, який дозволяє сформувати позов, заяву до суду, договір та ін.
+            практикуючих правників України, який дозволяє сформувати позов, заяву до суду, договір, статут підприємства
+            та ін.
             документи не витрачаючи ваш час та кошти на юристів.
         </span>
     </div>
@@ -96,8 +94,8 @@
                     <!--                <option value="104">Поставки</option>-->
                     <!--            </optgroup>-->
 
-                    <optgroup label="Заяви до суду">
-                        <!--                <option value="201">Поновлення сроків</option>-->
+                    <optgroup label="Статути">
+                        <option value="120">Статут ТОВ</option>
 
                     </optgroup>
 
@@ -118,7 +116,7 @@
         <p>
             <small>Сервіс сформовано з метою покращення якості надання юридичних послуг населенню.</small>
             <br>
-            <small><a href="#va" class="fancybox">Приклади сформованих документів</a> </small>
+            <small><a href="#va" class="fancybox">Приклади сформованих документів</a></small>
             <br>
             <small><i class="fa fa-copyright"></i>2016 'IPC2B' Всі права захищені. <br>
                 <a style="color: #8c8c8c" href="mailto:support@pozov.online">support@pozov.online</a></small>
@@ -152,6 +150,15 @@
                 </ul>
 
             </li>
+            <li><b>Статути</b>
+                <ul>
+                    <li><a class="fancybox fancybox.iframe" href="./example/stat.html">Статут ТОВ</a>
+                    </li>
+
+
+                </ul>
+
+            </li>
         </ul>
 
     </div>
@@ -171,31 +178,38 @@
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript">
     (function (d, w, c) {
-        (w[c] = w[c] || []).push(function() {
+        (w[c] = w[c] || []).push(function () {
             try {
                 w.yaCounter35886050 = new Ya.Metrika({
-                    id:35886050,
-                    clickmap:true,
-                    trackLinks:true,
-                    accurateTrackBounce:true,
-                    webvisor:true
+                    id: 35886050,
+                    clickmap: true,
+                    trackLinks: true,
+                    accurateTrackBounce: true,
+                    webvisor: true
                 });
-            } catch(e) { }
+            } catch (e) {
+            }
         });
 
         var n = d.getElementsByTagName("script")[0],
             s = d.createElement("script"),
-            f = function () { n.parentNode.insertBefore(s, n); };
+            f = function () {
+                n.parentNode.insertBefore(s, n);
+            };
         s.type = "text/javascript";
         s.async = true;
         s.src = "https://mc.yandex.ru/metrika/watch.js";
 
         if (w.opera == "[object Opera]") {
             d.addEventListener("DOMContentLoaded", f, false);
-        } else { f(); }
+        } else {
+            f();
+        }
     })(document, window, "yandex_metrika_callbacks");
 </script>
-<noscript><div><img src="https://mc.yandex.ru/watch/35886050" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<noscript>
+    <div><img src="https://mc.yandex.ru/watch/35886050" style="position:absolute; left:-9999px;" alt=""/></div>
+</noscript>
 <!-- /Yandex.Metrika counter -->
 
 </body>

@@ -46,8 +46,8 @@ session_start();
         case '103':
             include 'application_to_the _contract/sale_price.php';
             break;
-        case '104':
-
+        case '120':
+            include 'for_stat/stat.php';
             break;
         case '201':
 
