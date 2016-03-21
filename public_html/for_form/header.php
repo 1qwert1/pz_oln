@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -27,27 +25,35 @@
     <link rel="stylesheet" type="text/css" href="../css/media.css"/>
     <link rel="stylesheet" type="text/css" href="../css/fonts.css"/>
     <link rel="stylesheet" type="text/css" href="../css/main-next.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/next.css"/>
     <script src="../libs/jquery/jquery-2.1.3.min.js"></script>
     <script src="../js/jquery-ui.js"></script>
     <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
         ga('create', 'UA-54699426-3', 'auto');
         ga('send', 'pageview');
 
     </script>
-<!--    <script src='https://www.google.com/recaptcha/api.js'></script>-->
-<!--    <script type="text/javascript">-->
-<!--        var onloadCallback = function() {-->
-<!--            grecaptcha.render('recaptcha', {-->
-<!--                'sitekey' : '6LcoExoTAAAAAILfY1ErzGBKCA9J_zV8nJ-2LkV9'-->
-<!---->
-<!--            });-->
-<!--        };-->
-<!--    </script>-->
+    <!--    <script src='https://www.google.com/recaptcha/api.js'></script>-->
+    <!--    <script type="text/javascript">-->
+    <!--        var onloadCallback = function() {-->
+    <!--            grecaptcha.render('recaptcha', {-->
+    <!--                'sitekey' : '6LcoExoTAAAAAILfY1ErzGBKCA9J_zV8nJ-2LkV9'-->
+    <!---->
+    <!--            });-->
+    <!--        };-->
+    <!--    </script>-->
 </head>
 <body>
 
@@ -55,16 +61,21 @@
 <div class="container">
 
 
-
     <div class="modal-header">
 
 
         <div style="width: 100%; text-align: center">
-<!--            реклама гугула-->
+            <!--            реклама гугула-->
         </div>
 
 
-        <h3><?php if($val_){echo 'Формування ' .$val_;} ?></h3></div>
+            <div class="well">
+                <h3><?php if ($val_) {
+                        echo 'Формування ' . $val_;
+                    } ?></h3>
+            </div>
+        </div>
+
 
 
 
