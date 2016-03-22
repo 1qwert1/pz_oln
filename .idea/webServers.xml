@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="dea3c52d-f6f9-4fc6-ac19-d425f854dc93" name="pozov" url="http://31.170.164.217">
+        <fileTransfer host="31.170.164.217" port="21" password="dfc1dfcedfdddfdcdfd9dfe9dfcbdfe5dfebdff8df9adf98dfe7" username="u249361692">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
