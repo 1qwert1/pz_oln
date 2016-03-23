@@ -121,6 +121,8 @@
             <br>
             <small><a href="#dovidk" class="fancybox">Довідкові матеріали</a></small>
             <br>
+            <small><a href="./blog" >Юридична газета</a></small>
+            <br>
             <small><i class="fa fa-copyright"></i>2016 'IPC2B' Всі права захищені. <br>
                 <a style="color: #8c8c8c" href="mailto:support@pozov.online">support@pozov.online</a></small>
         </p>

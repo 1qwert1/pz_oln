@@ -171,7 +171,7 @@ button,
 input,
 select,
 textarea {
-	color: #747474;
+	color: #3A3636;
 	font: 15px 'Roboto', sans-serif;
 	line-height: 22px;
 	word-wrap: break-word;
@@ -1498,10 +1498,12 @@ img#wpstats {
 	color: #6897e5;
 }
 .entry-header .entry-meta {
-	border-bottom: 1px solid #ddd;
+	/*border-bottom: 1px solid #ddd;*/
 	border-top: 1px solid #ddd;
 	padding: 8px 5px 4px;
 }
+
+
 .cat-links,
 .cat-links a,
 .tag-links,
