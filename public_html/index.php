@@ -119,9 +119,11 @@
             <br>
             <small><a href="#va" class="fancybox">Приклади сформованих документів</a></small>
             <br>
-            <small><a href="#dovidk" class="fancybox">Довідкові матеріали</a></small>
+            <small><a href="#dovidk" class="fancybox" style="color: #634c84" onMouseOver="this.style.color='#f35626'"
+                      onMouseOut="this.style.color='#634c84'">Довідкові матеріали</a></small>
             <br>
-            <small><a href="./blog" >Юридична газета</a></small>
+            <a href="./blog"  style="color: #5F8E14;" onMouseOver="this.style.color='#f35626'"
+               onMouseOut="this.style.color='#5F8E14'">Юридична газета</a>
             <br>
             <small><i class="fa fa-copyright"></i>2016 'IPC2B' Всі права захищені. <br>
                 <a style="color: #8c8c8c" href="mailto:support@pozov.online">support@pozov.online</a></small>
