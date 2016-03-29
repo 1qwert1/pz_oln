@@ -76,7 +76,7 @@
         <form action="for_form/forms.php" method="post">
 
             <select class="input" name="select">
-                    <option selected disabled>Вибрати</option>
+                <option selected disabled>Вибрати</option>
                 <optgroup label="Позовні заяви">
                     <option value="1">Про розірвання шлюбу</option>
                     <option value="3">Про стягнення нарахованої, але невиплаченої заробітної плати (наказне
@@ -91,6 +91,7 @@
                     <option value="101">Підряду (будівництво)</option>
                     <option value="102">Поставки товару (рамковий)</option>
                     <option value="103">Поставки товару (з ціной договору)</option>
+                    <option value="104">Безвідсоткової поворотної фінансової допомоги(юр. особи)</option>
                     <!---->
                     <!--                <option value="104">Поставки</option>-->
                     <!--            </optgroup>-->
@@ -122,7 +123,7 @@
             <small><a href="#dovidk" class="fancybox" style="color: #634c84" onMouseOver="this.style.color='#f35626'"
                       onMouseOut="this.style.color='#634c84'">Довідкові матеріали</a></small>
             <br>
-            <a href="./blog"  style="color: #5F8E14;" onMouseOver="this.style.color='#f35626'"
+            <a href="./blog" style="color: #5F8E14;" onMouseOver="this.style.color='#f35626'"
                onMouseOut="this.style.color='#5F8E14'">Юридична газета</a>
             <br>
             <small><i class="fa fa-copyright"></i>2016 'IPC2B' Всі права захищені. <br>
@@ -153,6 +154,8 @@
                     </li>
                     <li><a class="fancybox fancybox.iframe" href="./example/sale_.html">Договір поставки (з ціной
                             договору)</a></li>
+                    <li><a class="fancybox fancybox.iframe" href="./example/pozik.html">Договір про надання
+                            безвідсоткової поворотної фінансової допомоги</a></li>
 
                 </ul>
 
@@ -265,10 +268,9 @@
 
 
         <br>- Оплатіть судовий збір (у арзі якщо це необхідно).
-        <br>- Оформіть позовну заяву, додайте документи вказані в <додатках>                                                </додатках>.
-
-
-
+        <br>- Оформіть позовну заяву, додайте документи вказані в
+        <додатках></додатках>
+        .
 
 
     </div>

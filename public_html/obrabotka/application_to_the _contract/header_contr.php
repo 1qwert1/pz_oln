@@ -18,7 +18,9 @@ switch ($_SESSION['$val']) {
         $name_stor_2 = 'Замовник';
         break;
     case '104':
-        $name_contr = '';
+        $name_contr = 'ПРО НАДАННЯ БЕЗВІДСОТКОВОЇ ПОВОРОТНОЇ ФІНАНСОВОЇ ДОПОМОГИ';
+        $name_stor_1 = 'Позикодавець';
+        $name_stor_2 = 'Позичальник';
         break;
     case '105':
 

@@ -66,7 +66,10 @@ switch ($_SESSION['$val']) {
             include 'sale_place.php';
         } elseif ($_SESSION['$val'] == 103) {
             include 'sale_price.php';
+        }elseif ($_SESSION['$val'] == 104) {
+            include 'pozika.php';
         }
+        
         include 'agreement.php';
     }
     ?>
