@@ -51,9 +51,9 @@
 для рекламы
 </div>-->
 
-<div class="loader">
-    <div class="loader_inner"></div>
-</div>
+<!--<div class="loader">-->
+<!--    <div class="loader_inner"></div>-->
+<!--</div>-->
 
 <header class="site__header island">
     <div class="wrap">
