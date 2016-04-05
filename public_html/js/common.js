@@ -68,12 +68,12 @@ function a_value(o) {
 }
 
 
-$(window).load(function () {
-
-    $(".loader_inner").fadeOut();
-
-
-});
+// $(window).load(function () {
+//
+//     $(".loader_inner").fadeOut();
+//
+//
+// });
 
 
 //запрет на выделение и копирование текста

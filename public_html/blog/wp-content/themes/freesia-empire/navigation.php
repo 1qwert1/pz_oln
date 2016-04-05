@@ -14,10 +14,10 @@ if ( !class_exists( 'Jetpack') || class_exists( 'Jetpack') && !Jetpack::is_modul
 		if ( $wp_query->max_num_pages > 1 ) : ?>
 		<ul class="default-wp-page clearfix">
 			<li class="previous">
-				<?php next_posts_link( __( '&laquo; Previous Page', 'freesia-empire' ) ); ?>
+				<?php next_posts_link( __( '&laquo; Предыдущая страница', 'freesia-empire' ) ); ?>
 			</li>
 			<li class="next">
-				<?php previous_posts_link( __( 'Next Page &raquo;', 'freesia-empire' ) ); ?>
+				<?php previous_posts_link( __( 'Следующая страница &raquo;', 'freesia-empire' ) ); ?>
 			</li>
 		</ul>
 		<?php  endif;

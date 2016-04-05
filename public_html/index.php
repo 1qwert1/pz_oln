@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="css/font-awesome.min.css"/>
     <script src="libs/jquery/jquery-2.1.3.min.js"></script>
     <script src="libs/fancybox/jquery.fancybox.pack.js"></script>
+
     <!--    гугл аналистик-->
     <script>
         (function (i, s, o, g, r, a, m) {
@@ -132,6 +133,24 @@
     </div>
 </main>
 
+<a href="#" class="goodshare" data-type="fb"><i class="fa fa-facebook" style="color: #3B5998"
+                                                onMouseOver="this.style.color='red'"
+                                                onMouseOut="this.style.color='#3B5998'"></i></a>
+<a href="#" class="goodshare" data-type="vk"><i class="fa fa-vk" style="color: #5B7FA6"
+                                                onMouseOver="this.style.color='red'"
+                                                onMouseOut="this.style.color='#5B7FA6'"></i></a>
+<a href="#" class="goodshare" data-type="ok"><i class="fa fa-odnoklassniki" style="color: #f2720c"
+                                                onMouseOver="this.style.color='red'"
+                                                onMouseOut="this.style.color='#f2720c'"></i></a>
+<a href="#" class="goodshare" data-type="tw"><i class="fa fa-twitter" style="color: #4099FF"
+                                                onMouseOver="this.style.color='red'"
+                                                onMouseOut="this.style.color='#4099FF'"></i></a>
+<a href="#" class="goodshare" data-type="rd"><i class="fa fa-reddit" style="color: #ff5700"
+                                                onMouseOver="this.style.color='red'"
+                                                onMouseOut="this.style.color='#ff5700'"></i></a>
+<a href="#" class="goodshare" data-type="gp"><i class="fa fa-google-plus" style="color: #D84B37"
+                                                onMouseOver="this.style.color='red'"
+                                                onMouseOut="this.style.color='#D84B37'"></i></a>
 
 <div class="hidden">
     <div id="va">
@@ -369,7 +388,7 @@
             матиме менше бажання невиконувати свої зобов’язання.</p>
     </div>
 </div>
-
+<script src="https://cdn.jsdelivr.net/g/jquery@1.11.3,jquery.goodshare.js@3.2.8"></script>
 <script>
     $(document).ready(function () {
 

@@ -38,6 +38,7 @@
     <p class="request"><b>Прошу :</b></p>
     <p>
     <ol>
+        <li>Задовольнити позов про розірвання шлюбу</li>
         <li>Розірвати шлюб між мною - <?php echo $_POST['name_poz'] ?> , та Відповідачем
             - <?php echo $_POST['name_vidp'] ?>,
             зареєстрований <?php echo $_POST['place_marrige'] ?>

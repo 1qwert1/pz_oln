@@ -12,7 +12,7 @@
     <div class="center_name">
         <br><br><br><br><br><br><br>
         <br>
-        <h3>С Т А Т У Т
+        <h3><i style="letter-spacing: 25px;color:inherit">СТАТУТ</i><br>
             <br>ТОВАРИСТВА З ОБМЕЖЕНОЮ
             <br>ВІДПОВІДАЛЬНІСТЮ
             <br>«<?php echo $_POST[name_komp] ?>»</h3>
