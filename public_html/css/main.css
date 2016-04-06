@@ -179,7 +179,7 @@ a:hover {
 }
 
 .island {
-    padding: 1.5rem;
+    padding: 0.5rem;
 }
 
 .isle {
@@ -330,4 +330,14 @@ html {
 }
 ::-moz-selection {
     background: #ffff00; /* FireFox */
+}
+
+.goodshare:hover {
+    font-size: x-large;
+}
+.goodshare-h{
+    line-height: 1.5rem;
+}
+.goodshare-h .goodshare {
+    vertical-align: middle;
 }
