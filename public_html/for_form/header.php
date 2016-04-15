@@ -2,13 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Подготовка юридических документов онлайн бесплатно без регистрации в два простых
-    шага. Заполните форму и робот все сделает за вас. Распечатайте документ "/>
-    <meta name="keywords" content="создание договора, создание иска по зароботной плате, создание заявления в суд,
-     создание искового заявления для развода, взыскание зароботной платы и среднего зароботка за время
-      задержки выплаты зарплаты, заява про стягнення нарахованої, але невиплаченої заробітної плати,
-       середнього заробітку за час затримки розрахунку, позовна заява про розірвання шлюбу, заява про розлучення, позов про
-       розірвання шлюбу, договір підряду, зразки документів, зразок позовної заяви, договір підряду, договір поставки">
+    <meta name="description" content="Підготовка юридичних документів онлайн. Безкоштовно та без реєстрації за два простих
+     кроки. Заповніть форму і робот все зробить за вас. Роздрукуйте документ"/>
+    <meta name="keywords" content="створення договору, створення позову по заробітній платі, створення заяви до суду,
+          створення позовної заяви для розлучення, стягнення заробітної плати та середнього заробітку
+           за час затримки виплати зарплати, заява про Стягнення нарахованої, но невіплаченої заробітної
+            плати, середнього заробітку за час затримки розрахунку, позовна заява про Розірвання шлюбу,
+             заява про розлучення, позов про Розірвання шлюбу, договір підряду, зразки документів, зразок
+              позовної заяви, договір підряду, договір поставки">
     <meta name="author" content="IPC2B llc">
 
     <!--                <meta http-equiv="refresh" content="1">-->
@@ -22,29 +23,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="stylesheet" type="text/css" href="../libs/bootstrap/bootstrap.css"/>
     <link rel="stylesheet" href="../js/jquery-ui.css">
+    <link rel="stylesheet" href="../css/font-awesome.min.css"/>
     <link rel="stylesheet" type="text/css" href="../css/media.css"/>
     <link rel="stylesheet" type="text/css" href="../css/fonts.css"/>
     <link rel="stylesheet" type="text/css" href="../css/main-next.css"/>
     <link rel="stylesheet" type="text/css" href="../css/next.css"/>
     <script src="../libs/jquery/jquery-2.1.3.min.js"></script>
     <script src="../js/jquery-ui.js"></script>
-    <script>
-        (function (i, s, o, g, r, a, m) {
-            i['GoogleAnalyticsObject'] = r;
-            i[r] = i[r] || function () {
-                    (i[r].q = i[r].q || []).push(arguments)
-                }, i[r].l = 1 * new Date();
-            a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0];
-            a.async = 1;
-            a.src = g;
-            m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-        ga('create', 'UA-54699426-3', 'auto');
-        ga('send', 'pageview');
-
-    </script>
     <!--    <script src='https://www.google.com/recaptcha/api.js'></script>-->
     <!--    <script type="text/javascript">-->
     <!--        var onloadCallback = function() {-->
@@ -69,15 +55,12 @@
         </div>
 
 
-            <div class="well">
-                <h3><?php if ($val_) {
-                        echo 'Формування ' . $val_;
-                    } ?></h3>
-            </div>
+        <div class="well">
+            <h3><?php if ($val_) {
+                    echo 'Формування ' . $val_;
+                } ?></h3>
         </div>
-
-
-
+    </div>
 
 
     <br>

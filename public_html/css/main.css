@@ -126,10 +126,10 @@ h2, .beta {
     line-height: 1.2;
 }
 
-@media (min-width: 650px) {
+@media (min-width: 350px) {
     .mega {
         font-size: 3rem;
-        line-height: 1;
+        line-height: 2;
 
     }
 
@@ -195,7 +195,7 @@ a:hover {
 \*-----------------------------------*/
 
 html {
-    font: 100%/1.5 "Roboto", Verdana, sans-serif;
+    font: 100% "Roboto", Verdana, sans-serif;
     color: #3d464d;
     background-color: #fff;
     -webkit-font-smoothing: antialiased;
@@ -336,7 +336,7 @@ html {
     font-size: x-large;
 }
 .goodshare-h{
-    line-height: 1.5rem;
+    line-height: 1.9rem;
 }
 .goodshare-h .goodshare {
     vertical-align: middle;

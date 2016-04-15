@@ -3,13 +3,15 @@
 <head>
     <meta charset="UTF-8">
 
-    <meta name="description" content="Подготовка юридических документов онлайн бесплатно без регистрации в два простых
-    шага. Заполните форму и робот все сделает за вас. Распечатайте документ "/>
-    <meta name="keywords" content="создание договора, создание иска по зароботной плате, создание заявления в суд,
-     создание искового заявления для развода, взыскание зароботной платы и среднего зароботка за время
-      задержки выплаты зарплаты, заява про стягнення нарахованої, але невиплаченої заробітної плати,
-       середнього заробітку за час затримки розрахунку, позовна заява про розірвання шлюбу, заява про розлучення, позов про
-       розірвання шлюбу, договір підряду, зразки документів, зразок позовної заяви, договір підряду, договір поставки">
+    <meta name="description" content="Підготовка юридичних документів онлайн. Безкоштовно та без реєстрації за два простих
+     кроки. Заповніть форму і робот все зробить за вас. Роздрукуйте документ"/>
+    <meta name="keywords"
+          content="створення договору, створення позову по заробітній платі, створення заяви до суду,
+          створення позовної заяви для розлучення, стягнення заробітної плати та середнього заробітку
+           за час затримки виплати зарплати, заява про Стягнення нарахованої, но невіплаченої заробітної
+            плати, середнього заробітку за час затримки розрахунку, позовна заява про Розірвання шлюбу,
+             заява про розлучення, позов про Розірвання шлюбу, договір підряду, зразки документів, зразок
+              позовної заяви, договір підряду, договір поставки">
     <meta name="author" content="IPC2B llc">
 
     <title>Позов онлайн</title>
@@ -25,24 +27,6 @@
     <script src="libs/jquery/jquery-2.1.3.min.js"></script>
     <script src="libs/fancybox/jquery.fancybox.pack.js"></script>
 
-    <!--    гугл аналистик-->
-    <script>
-        (function (i, s, o, g, r, a, m) {
-            i['GoogleAnalyticsObject'] = r;
-            i[r] = i[r] || function () {
-                    (i[r].q = i[r].q || []).push(arguments)
-                }, i[r].l = 1 * new Date();
-            a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0];
-            a.async = 1;
-            a.src = g;
-            m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-
-        ga('create', 'UA-54699426-3', 'auto');
-        ga('send', 'pageview');
-
-    </script>
     <meta name='yandex-verification' content='717ea4057e91f99d'/>
 
 </head>
@@ -61,9 +45,8 @@
         <span style="display: block;" class="site__title mega">Позов онлайн<sup><i class="fa fa-copyright"
                                                                                    style="font-size: small"></i></sup></span>
         <span class="beta subhead">абсолютно безкоштовний юридичний ресурс, сформований за ініціативи
-            практикуючих правників України, який дозволяє сформувати позов, заяву до суду, договір, статут підприємства
-            та ін.
-            документи не витрачаючи ваш час та кошти на юристів.
+            практикуючих правників України, який дозволяє сформувати позовну заяву, договір, статут підприємства
+            та ін. документи не витрачаючи ваш час та кошти на юристів.
         </span>
     </div>
 </header>
@@ -124,8 +107,8 @@
             <small><a href="#dovidk" class="fancybox" style="color: #634c84" onMouseOver="this.style.color='#f35626'"
                       onMouseOut="this.style.color='#634c84'">Довідкові матеріали</a></small>
             <br>
-            <a href="./blog" style="color: #5F8E14;" onMouseOver="this.style.color='#f35626'"
-               onMouseOut="this.style.color='#5F8E14'">Юридична газета</a>
+            <small><a href="./blog" style="color: #5F8E14;" onMouseOver="this.style.color='#f35626'"
+                      onMouseOut="this.style.color='#5F8E14'">Юридична газета</a></small>
             <br>
             <small><i class="fa fa-copyright"></i>2016 'IPC2B' Всі права захищені. <br>
                 <a style="color: #8c8c8c" href="mailto:support@pozov.online">support@pozov.online</a></small>
@@ -387,6 +370,26 @@
     });
 </script>
 <script src="js/common.js"></script>
+
+<!--    гугл аналистик-->
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-54699426-3', 'auto');
+    ga('send', 'pageview');
+
+</script>
+<!--    гугл аналистик-->
 
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript">
