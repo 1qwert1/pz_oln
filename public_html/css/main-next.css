@@ -163,7 +163,6 @@ p {
 .comback {
     position: fixed;
     right: 73px;
-    up: 20px;
     opacity: 0.5;
 
 }
@@ -173,7 +172,7 @@ p {
     color: red; /* Ссылка красного цвета */
 }
 
-.comback:hover {
+.comback:hover, .make:hover {
     opacity: 1;
 }
 
@@ -191,3 +190,9 @@ table.podp_stat{
     width: 50%;
 }
 
+.make {
+    position: fixed;
+    right: 73px;
+    top: 85px;
+    opacity: 0.5;
+}

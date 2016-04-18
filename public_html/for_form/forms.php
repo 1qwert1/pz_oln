@@ -6,7 +6,12 @@
 
 session_start();
 
-$_SESSION['$val'] = $_POST['select'];
+if ($_POST['submit']) {
+    $_SESSION['$val'] = $_POST['submit'];
+} elseif ($_POST['select']) {
+    $_SESSION['$val'] = $_POST['select'];
+}
+
 
 switch ($_SESSION['$val']) {
     case '1':
