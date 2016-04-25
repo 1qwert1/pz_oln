@@ -28,13 +28,24 @@
     <script src="libs/fancybox/jquery.fancybox.pack.js"></script>
 
     <meta name='yandex-verification' content='717ea4057e91f99d'/>
+<!--    <meta name="fl-verify" content="8379a8cf9cc70dc5bc0c7b7ad75d9bb9">-->
 
 </head>
 <body>
 
-<!--<div style="width: 100%; text-align: center">
-для рекламы
-</div>-->
+<div style="width: 100%; text-align: center">
+<!--для рекламы-->
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <!-- pozov online first -->
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-4872650891681792"
+         data-ad-slot="5076058068"
+         data-ad-format="auto"></ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
 
 <!--<div class="loader">-->
 <!--    <div class="loader_inner"></div>-->

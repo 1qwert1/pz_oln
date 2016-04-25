@@ -10,7 +10,7 @@ if ($_POST['submit']) {
     $_SESSION['$val'] = $_POST['submit'];
 } elseif ($_POST['select']) {
     $_SESSION['$val'] = $_POST['select'];
-}
+} else $_SESSION['$val'] = null;
 
 
 switch ($_SESSION['$val']) {

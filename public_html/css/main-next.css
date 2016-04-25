@@ -172,7 +172,7 @@ p {
     color: red; /* Ссылка красного цвета */
 }
 
-.comback:hover, .make:hover {
+.comback:hover {
     opacity: 1;
 }
 
@@ -189,7 +189,11 @@ table.podp_stat{
 .podp_stat td {
     width: 50%;
 }
-
+.make:hover {
+    opacity: 1;
+    background: #f35626;
+    color: #FFFFFF;
+}
 .make {
     position: fixed;
     right: 73px;
